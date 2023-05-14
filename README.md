@@ -1,6 +1,6 @@
 # NeoCat NeoFetch Theme Pack.
 ⮩<a href="https://www.pling.com/p/2034925/">Pling.com</a>|<a href="https://www.buymeacoffee.com/m3tozz/">Buymeacoffe.com</a>|<a href="https://www.instagram.com/metozz.exe/">Instagram.com</a>
-![resim](https://github.com/m3tozz/NeoCat/assets/79897762/de54194a-3508-4b87-9ca9-1b1692f90c44)
+![neocat](https://github.com/m3tozz/NeoCat/assets/79897762/dd5d1f2d-a12b-409c-b921-b51268b4c44f)
 ```bash
 
 git clone https://github.com/m3tozz/NeoCat.git 
