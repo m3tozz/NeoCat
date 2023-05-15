@@ -14,7 +14,7 @@ bash ./neocat.sh
   
 --------------------------------------------------------------------------
   
-![merhabakanka](https://github.com/m3tozz/NeoCat/assets/79897762/266d80b7-3a27-486b-8279-8e582ed9029f)
+![merhabakanka](https://github.com/m3tozz/NeoCat/assets/79897762/266d80b7-3a27-486b-8279-8e582ed9029f) [![Social](https://github.com/m3tozz/NeoCat/assets/79897762/5a564738-972a-44f2-b6d1-875c986cb5db)](https://www.pling.com/p/2034925/)
 
 --------------------------------------------------------------------------
 
