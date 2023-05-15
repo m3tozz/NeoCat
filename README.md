@@ -10,6 +10,9 @@ cd NeoCat
 ```bash
 bash ./neocat.sh
 ```
+![Ekran Görüntüsü - 2023-05-14 11-18-19](https://github.com/m3tozz/NeoCat/assets/79897762/2aba61d8-f30a-449d-96e0-9bcc6bacfd20)
+![Ekran Görüntüsü - 2023-05-14 11-18-29](https://github.com/m3tozz/NeoCat/assets/79897762/a13c8934-c5b2-4c8f-9d25-b38d89796839)
+-
 ![aaa](https://github.com/m3tozz/NeoCat/assets/79897762/37a1bdcd-fa1a-43ed-8e4b-6449b5f7b739)
 
 ⮩made by m3tozz
