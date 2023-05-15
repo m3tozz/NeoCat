@@ -14,12 +14,8 @@ bash ./neocat.sh
   
 --------------------------------------------------------------------------
   
-<table align="center">
-  <tr>
-    <th><img src="https://github.com/m3tozz/NeoCat/assets/79897762/8054a8e8-4935-45cc-b850-a996822bb732" width="50%" height="50%"></th>
-    <th><a href="https://www.pling.com/p/2034925" target="_blank"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/d42c029d-3883-4d38-95d8-24f8ca26c7ed" alt="Pling" width="50"></th>
-  </tr>
- 
+![merhabakanka](https://github.com/m3tozz/NeoCat/assets/79897762/266d80b7-3a27-486b-8279-8e582ed9029f)
+
 --------------------------------------------------------------------------
 
 ⮩made by m3tozz
