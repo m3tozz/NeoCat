@@ -14,8 +14,9 @@ bash ./neocat.sh
   
 --------------------------------------------------------------------------
   
-<p align="left"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/8054a8e8-4935-45cc-b850-a996822bb732" width="50%" height="50%">   <align="right"><a href="https://www.pling.com/p/2034925" target="_blank"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/d42c029d-3883-4d38-95d8-24f8ca26c7ed" width="40%" height="40%"></a>
+<p align="left"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/8054a8e8-4935-45cc-b850-a996822bb732" width="50%" height="50%">  <p align="right"><a href="https://www.pling.com/p/2034925" target="_blank"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/d42c029d-3883-4d38-95d8-24f8ca26c7ed" alt="Pling" height="50" width="50"></a>
  
 --------------------------------------------------------------------------
 
 ⮩made by m3tozz
+
