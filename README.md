@@ -12,7 +12,7 @@ bash ./neocat.sh
 ```
 <p align="left"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/2aba61d8-f30a-449d-96e0-9bcc6bacfd20" width="50%" height="50%"><align="right"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/a13c8934-c5b2-4c8f-9d25-b38d89796839" width="50%" height="50%">
   
--
+ --
   
 ![merhabakanka](https://github.com/m3tozz/NeoCat/assets/79897762/8054a8e8-4935-45cc-b850-a996822bb732)
  
