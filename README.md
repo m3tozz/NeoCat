@@ -10,11 +10,11 @@ cd NeoCat
 ```bash
 bash ./neocat.sh
 ```
-<p align="left"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/2aba61d8-f30a-449d-96e0-9bcc6bacfd20" width="50%" height="50%"><p align="right"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/a13c8934-c5b2-4c8f-9d25-b38d89796839" width="50%" height="50%">
+<p align="left"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/2aba61d8-f30a-449d-96e0-9bcc6bacfd20" width="50%" height="50%"><align="right"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/a13c8934-c5b2-4c8f-9d25-b38d89796839" width="50%" height="50%">
   
 --------------------------------------------------------------------------
   
-<p align="left"><a href="https://www.pling.com/p/2034925/"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/266d80b7-3a27-486b-8279-8e582ed9029f" width="50" height="50"</a><p align="right"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="50%">
+<p align="left"><a href="https://www.pling.com/p/2034925/"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/266d80b7-3a27-486b-8279-8e582ed9029f" width="50" height="50"</a><align="right"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="50%">
 
 --------------------------------------------------------------------------
 ⮩made by m3tozz
