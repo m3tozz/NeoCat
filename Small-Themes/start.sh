@@ -15,7 +15,7 @@ echo -e '\033[0;36m
 \e[1;34m[01]\e[0;32mLoki-Ranger \e[1;35m[02]\e[0;32mFast-Snail \e[1;31m[03]\e[0;32mSpongeBob \033[1;33m[04]\e[0;32mDino-Rex
 \033[1;33m[05]\e[0;32mSmile \e[1;36m[06]\e[0;32mCrocodile \e[1;35m[07]\e[0;32mOWL \e[1;34m[08]\e[0;32mMotorCycle \e[1;36m[09]\e[0;32mSnake
 \e[1;34m[10]\e[0;32mTux \e[1;35m[11]\e[0;32mPalm \e[1;36m[12]\e[0;32mAlien \033[1;33m[13]\e[0;32mHello-Kity
-\033[1;31m[x]Exit [00]Menu
+\033[1;31m[x]Exit [00]Menu [D]Default-Theme
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
 }
@@ -244,6 +244,23 @@ elif [[ $islem == 13 ]]; then
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Hello-Kity/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == D || $islem == d  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Default-Theme
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Default/ && cp -r neofetch /home/$USER/.config
 clear   
 neofetch
 
