@@ -13,8 +13,9 @@ echo -e '\033[0;36m
 \033[0;36m | |\  |  __/ (_) | |___| (_| | |_ 
 \033[0;31m |_| \_|\___|\___/ \_____\__,_|\__|⠀⠀⠀⠀⠀⠀                                       
 \e[1;34m[01]\e[0;32mAvengers \e[1;35m[02]\e[0;32mCake-Man \e[1;31m[03]\e[0;32mRock \033[1;33m[04]\e[0;32mBlack-Panther
-\033[1;33m[05]\e[0;32mAnime-Girl \e[1;36m[06]\e[0;32mDeath \e[1;35m[07]\e[0;32mPikachu
-\033[1;31m[x]Exit [00]Menu
+\033[1;33m[05]\e[0;32mAnime-Girl \e[1;36m[06]\e[0;32mDeath \e[1;35m[07]\e[0;32mPikachu \033[1;33m[08]\e[0;32mCat \e[1;34m[09]\e[0;32mAnime-Boy
+\e[1;35m[10]\e[0;32mF \e[1;34m[11]\e[0;32mPatRick
+\033[1;31m[x]Exit [00]Menu [D]Default-Theme
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
 }
@@ -151,13 +152,13 @@ elif [[ $islem == 8 || $islem == 08 ]]; then
   _   _             _____      _   
  | \ | |           / ____|    | |  
  |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|MotorCycle
+ | . ` |/ _ \/ _ \| |    / _` | __|Cat
  | |\  |  __/ (_) | |___| (_| | |_ 
  |_| \_|\___|\___/ \_____\__,_|\__|                                      
 '
 rm -r /home/$USER/.config/neofetch
 sleep 1
-        cd MotorCycle/ && cp -r neofetch /home/$USER/.config
+        cd Cat/ && cp -r neofetch /home/$USER/.config
 clear   
 neofetch
 
@@ -168,13 +169,13 @@ elif [[ $islem == 9 || $islem == 09 ]]; then
   _   _             _____      _   
  | \ | |           / ____|    | |  
  |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Snake
+ | . ` |/ _ \/ _ \| |    / _` | __|Anime-Boy
  | |\  |  __/ (_) | |___| (_| | |_ 
  |_| \_|\___|\___/ \_____\__,_|\__|                                      
 '
 rm -r /home/$USER/.config/neofetch
 sleep 1
-        cd Snake/ && cp -r neofetch /home/$USER/.config
+        cd Anime-Boy/ && cp -r neofetch /home/$USER/.config
 clear   
 neofetch
 
@@ -194,6 +195,41 @@ sleep 1
         cd F/ && cp -r neofetch /home/$USER/.config
 clear   
 neofetch
+
+elif [[ $islem == 11  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|PatRick
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd PatRick/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == D || $islem == d  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Default-Theme
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Default/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
 elif [[ $islem == 0 || $islem == 00 ]]; then
         sleep 1
         cd ..
