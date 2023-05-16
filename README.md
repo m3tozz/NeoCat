@@ -10,7 +10,7 @@ cd NeoCat
 ```bash
 bash ./neocat.sh
 ```
-<p align="left"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/2aba61d8-f30a-449d-96e0-9bcc6bacfd20" width="50%" height="50%"><align="right"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/a13c8934-c5b2-4c8f-9d25-b38d89796839" width="50%" height="50%">
+<p align="left"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/585bf9c0-3489-4e89-996b-cee6f217da0f" width="50%" height="50%"><align="right"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/43af172e-1a5f-4a3c-82ae-f8dcb8313211" width="50%" height="50%">
   
 --------------------------------------------------------------------------
   
@@ -18,4 +18,3 @@ bash ./neocat.sh
 
 --------------------------------------------------------------------------
 ⮩made by m3tozz
-  
