@@ -14,7 +14,7 @@ bash ./neocat.sh
   
 --------------------------------------------------------------------------
   
-<p align="left"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/266d80b7-3a27-486b-8279-8e582ed9029f"> <a href="https://www.pling.com/p/2034925/" target="_blank"> <align="right"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="44%">
+<p align="left"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/215cf539-f442-4b36-90da-a23fae2f114e"> <a href="https://www.pling.com/p/2034925/" target="_blank"> <align="right"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="44%">
 
 --------------------------------------------------------------------------
 ⮩made by m3tozz
