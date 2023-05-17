@@ -18,7 +18,7 @@ bash ./neocat.sh
   
 --------------------------------------------------------------------------
   
-<p align="left"><a href="https://www.pling.com/p/2034925/" target="_blank"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="44%"> <align="right"><a href="https://www.buymeacoffee.com/m3tozz" target="_blank"><img src ="https://cdn.hashnode.com/res/hashnode/image/upload/v1597754812181/v-hGJ-_v1.png"  width="51%">
+<p align="left"><a href="https://www.pling.com/p/2034925/" target="_blank"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="44%"> <align="right"><a href="https://www.buymeacoffee.com/m3tozz" target="_blank"><img src ="https://cdn.hashnode.com/res/hashnode/image/upload/v1597754812181/v-hGJ-_v1.png"  width="70%">
  
 --------------------------------------------------------------------------
 ⮩made by m3tozz
