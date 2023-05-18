@@ -14,7 +14,7 @@ bash ./neocat.sh
   
 --------------------------------------------------------------------------
   
-<p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/1b4a6531-31d5-475c-806b-7df98688fe88"><a href="https://www.pling.com/p/2034925/" target="_blank"> 
+<p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/b7912c75-adfd-4f55-807b-3774e1f02f6d">
   
 --------------------------------------------------------------------------
   
