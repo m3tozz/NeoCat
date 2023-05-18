@@ -18,7 +18,11 @@ bash ./neocat.sh
   
 --------------------------------------------------------------------------
   
-<p align="left"><a href="https://www.pling.com/p/2034925/" target="_blank"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="44%"> <align="right"><a href="https://www.buymeacoffee.com/m3tozz" target="_blank"><img src="https://media.tenor.com/Is0ELiJnoU0AAAAi/buymeacoffee-button.gif" width="51%"> 
+<p align="center"><a href="https://www.pling.com/p/2034925/" target="_blank"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="44%">
  
+--------------------------------------------------------------------------
+Donate | Bağış Yap
+ --
+ <p align="left"><a href="https://kreosus.com/m3tozzch4rm">Donate Link (Turkish)</a> or <align="right"><a href="https://www.buymeacoffee.com/m3tozz">BuyMeACoffe</a>.
 --------------------------------------------------------------------------
 <p align="center">made by m3tozz
