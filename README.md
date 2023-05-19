@@ -3,6 +3,7 @@
 ![neocat](https://github.com/m3tozz/NeoCat/assets/79897762/dd5c73f0-fd14-4699-a94f-638b091291d1)
 
 --------------------------------------------------------------------------
+
 Installation
 --
 ```bash
