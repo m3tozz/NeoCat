@@ -1,6 +1,10 @@
 # NeoCat NeoFetch Theme Pack.
 ⮩<a href="https://www.pling.com/p/2034925/">Pling.com</a>|<a href="https://www.buymeacoffee.com/m3tozz/">Buymeacoffe.com</a>|<a href="https://www.instagram.com/metinzuhree/">Instagram.com</a>
 ![neocat](https://github.com/m3tozz/NeoCat/assets/79897762/dd5c73f0-fd14-4699-a94f-638b091291d1)
+--------------------------------------------------------------------------
+
+Installation
+--
 ```bash
 git clone https://github.com/m3tozz/NeoCat.git 
 ```
@@ -10,6 +14,8 @@ cd NeoCat
 ```bash
 bash ./neocat.sh
 ```
+--------------------------------------------------------------------------
+
 <p align="left"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/89e23df5-8782-4168-b8f0-461a1dd7e253" width="50%" height="50%"><align="right"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/3db94444-a946-4d6c-924c-7cad7d5787e8" width="50%" height="30%">
   
 --------------------------------------------------------------------------
