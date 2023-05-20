@@ -1,8 +1,6 @@
 # Made By M3TOZZ
 clear
-case $1 in
 
-esac
 banner(){
 echo -e '\033[1;36m⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                       ⠀⠀
  _   _             ____      _   
