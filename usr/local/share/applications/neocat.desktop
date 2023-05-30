@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=neocat
+Comment=NeoFetch Theme Pack!
+Exec=neocat
+Icon=/usr/share/pixmaps/neocat.png
+Path=/usr/share/neocat
+Terminal=true
+StartupNotify=false
