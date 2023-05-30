@@ -3,7 +3,6 @@
 ![neocat](https://github.com/m3tozz/NeoCat/assets/79897762/dd5c73f0-fd14-4699-a94f-638b091291d1)
 
 --------------------------------------------------------------------------
-
 Installation
 --
 ```bash
@@ -12,6 +11,11 @@ git clone https://github.com/m3tozz/NeoCat.git
 ```bash
 cd NeoCat 
 ```
+```bash
+sudo make install
+```
+Run(No Install)
+--
 ```bash
 bash ./neocat.sh
 ```
