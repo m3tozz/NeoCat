@@ -14,7 +14,7 @@ cd NeoCat
 ```bash
 sudo make install
 ```
-Run(No Install)
+Run(Without Install)
 --
 ```bash
 bash ./neocat.sh
