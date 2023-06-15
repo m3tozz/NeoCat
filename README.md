@@ -1,7 +1,10 @@
 # NeoCat NeoFetch Theme Pack.
 ⮩<a href="https://www.pling.com/p/2034925/">Pling.com</a>|<a href="https://www.buymeacoffee.com/m3tozz/">Buymeacoffe.com</a>|<a href="https://www.instagram.com/metinzuhree/">Instagram.com</a>
 ![neocat](https://github.com/m3tozz/NeoCat/assets/79897762/dd5c73f0-fd14-4699-a94f-638b091291d1)
-
+--------------------------------------------------------------------------
+# What is NeoCat?.
+--
+It contains its own neofetch configurations in NeoCat and uploads the selected configuration to your system
 --------------------------------------------------------------------------
 Installation
 --
