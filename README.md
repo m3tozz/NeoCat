@@ -4,8 +4,8 @@
 
 --------------------------------------------------------------------------
 
-What is NeoCat? <br>
-<img src="https://hits.sh/github.com/m3tozz/NeoCat.svg?color=fe7d37" alt="r10" hspace="10"  align="right" /> NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
+<img src="https://hits.sh/github.com/m3tozz/NeoCat.svg?color=fe7d37" alt="r10" hspace="10"  align="right" /> What is NeoCat?
+NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
 
 --------------------------------------------------------------------------
 
