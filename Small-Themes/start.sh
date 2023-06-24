@@ -12,7 +12,8 @@ echo -e '\033[0;36m
 \e[1;34m[01]\e[0;32mLoki-Ranger \e[1;35m[02]\e[0;32mFast-Snail \e[1;31m[03]\e[0;32mSpongeBob \033[1;33m[04]\e[0;32mDino-Rex
 \033[1;33m[05]\e[0;32mSmile \e[1;36m[06]\e[0;32mCrocodile \e[1;35m[07]\e[0;32mOWL \e[1;34m[08]\e[0;32mMotorCycle \e[1;36m[09]\e[0;32mSnake
 \e[1;34m[10]\e[0;32mTux \e[1;35m[11]\e[0;32mPalm \e[1;36m[12]\e[0;32mAlien \033[1;33m[13]\e[0;32mTruck \e[1;35m[14]\e[0;32mCocktail
-\033[1;33m[15]\e[0;32mSmall-Buntu \e[1;35m[16]\e[0;32mPhone \e[1;34m[17]\e[0;32mDuck \e[1;36m[18]\e[0;32mSimba
+\033[1;33m[15]\e[0;32mSmall-Buntu \e[1;35m[16]\e[0;32mPhone \e[1;34m[17]\e[0;32mDuck \e[1;36m[18]\e[0;32mSimba \033[1;33m[19]\e[0;32mDinosaurs
+\e[1;36m[20]\e[0;32mSheriff \e[1;34m[21]\e[0;32mGiraffe \033[1;33m[22]\e[0;32mDog
 \033[1;31m[x]Exit [00]Menu [D]Default-Theme
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
@@ -327,6 +328,74 @@ elif [[ $islem == 18 ]]; then
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Simba/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 19 ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Dinosaurs
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Dinosaurs/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 20 ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Sheriff
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Sheriff/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 21 ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Giraffe
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Giraffe/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 22 ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Dog
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Dog/ && cp -r neofetch /home/$USER/.config
 clear   
 neofetch
 
