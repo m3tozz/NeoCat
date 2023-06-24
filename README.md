@@ -5,7 +5,7 @@
 --------------------------------------------------------------------------
 
 <p align="left">What is NeoCat?
-NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
+<p align="left">NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
 
 --------------------------------------------------------------------------
 
