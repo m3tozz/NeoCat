@@ -4,8 +4,8 @@
 
 --------------------------------------------------------------------------
 
-<p align="left">What is NeoCat?
-<p align="left">NeoCat contains its own neofetch configurations and uploads the selected configuration to your system! <p align="right"><a href="https://hits.sh/github.com/m3tozz/NeoCat/"><img alt="Hits" src="https://hits.sh/github.com/m3tozz/NeoCat.svg?color=fe7d37"/></a>
+What is NeoCat?
+<img src="https://hits.sh/github.com/m3tozz/NeoCat.svg?color=fe7d37" alt="r10" hspace="10"  align="right" /> NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
 
 --------------------------------------------------------------------------
 
@@ -46,5 +46,3 @@ Donate | Bağış Yap
  
 --------------------------------------------------------------------------
 <p align="center">made by m3tozz
-
-<img src="https://hits.sh/github.com/m3tozz/NeoCat.svg?color=fe7d37" alt="r10" hspace="10"  align="right" /> NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
