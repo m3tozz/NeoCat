@@ -38,6 +38,7 @@ bash ./install-icons.sh
 --------------------------------------------------------------------------
   
 <p align="center"><a href="https://www.pling.com/p/2034925/" target="_blank"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="44%">
+ <p align="center"><a href="https://neocat-themes.blogspot.com/">Show All NeoCat Themes</a>
  
 --------------------------------------------------------------------------
 Donate | Bağış Yap
