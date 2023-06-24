@@ -34,7 +34,6 @@ bash ./install-icons.sh
 --------------------------------------------------------------------------
 
 <p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/007ac431-538b-47df-bcb6-7721667257f3">
-<p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/6125c9a6-f120-4fba-8a0b-bc685673f7d6">
   
 --------------------------------------------------------------------------
   
