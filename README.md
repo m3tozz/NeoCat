@@ -20,7 +20,7 @@ cd NeoCat
 ```bash
 sudo make install
 ```
-Run(Without Install)
+Run (Without Install)
 --
 ```bash
 bash ./neocat.sh
@@ -42,7 +42,7 @@ bash ./install-icons.sh
 --------------------------------------------------------------------------
 Donate | Bağış Yap
  --
- <p align="left"><a href="https://kreosus.com/m3tozzch4rm">Donate Link (Turkish)</a> or <align="right"><a href="https://www.buymeacoffee.com/m3tozz">BuyMeACoffe</a>.
+ <p align="left"><a href="https://kreosus.com/m3tozzch4rm">Donate Link (Turkish)</a> or <align="right"><a href="https://www.buymeacoffee.com/m3tozz">Buy me a coffee</a>.
  
 --------------------------------------------------------------------------
 <p align="center">made by m3tozz
