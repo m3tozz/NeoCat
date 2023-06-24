@@ -3,10 +3,9 @@
 ![neocat](https://github.com/m3tozz/NeoCat/assets/79897762/dd5c73f0-fd14-4699-a94f-638b091291d1)
 
 --------------------------------------------------------------------------
-<p align="right"><a href="https://hits.sh/github.com/m3tozz/NeoCat/"><img alt="Hits" src="https://hits.sh/github.com/m3tozz/NeoCat.svg?color=fe7d37"/></a>
-<p align="left">What is NeoCat? 
-<p align="left">NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
 
+What is NeoCat? [![Hits](https://hits.sh/github.com/m3tozz/NeoCat.svg?color=fe7d37)](https://hits.sh/github.com/m3tozz/NeoCat/)
+NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
 
 --------------------------------------------------------------------------
 
