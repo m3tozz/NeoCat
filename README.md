@@ -46,3 +46,5 @@ Donate | Bağış Yap
  
 --------------------------------------------------------------------------
 <p align="center">made by m3tozz
+
+<img src="https://hits.sh/github.com/m3tozz/NeoCat.svg?color=fe7d37" alt="r10" hspace="10"  align="right" /> NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
