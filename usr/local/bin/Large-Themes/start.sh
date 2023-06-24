@@ -13,7 +13,8 @@ echo -e '\033[0;36m
 \033[1;33m[05]\e[0;32mAnime-Girl \e[1;36m[06]\e[0;32mDeath \e[1;35m[07]\e[0;32mPikachu \033[1;33m[08]\e[0;32mCat \e[1;34m[09]\e[0;32mAnime-Boy
 \e[1;35m[10]\e[0;32mF \e[1;34m[11]\e[0;32mPatRick \e[1;36m[12]\e[0;32mNaruto-Konaha \e[1;35m[13]\e[0;32mOne-Piece \033[1;33m[14]\e[0;32mWindows-7
 \033[1;33m[15]\e[0;32mSpider-Man \e[1;34m[16]\e[0;32mMai \033[1;33m[17]\e[0;32mMetoCat \e[1;36m[18]\e[0;32mBatMan \e[1;34m[19]\e[0;32mHello-Kitty
-\e[1;34m[20]\e[0;32mGarfield \e[1;35m[21]\e[0;32mDog
+\e[1;34m[20]\e[0;32mGarfield \e[1;35m[21]\e[0;32mDog \e[1;36m[22]\e[0;32mSonic \033[1;33m[23]\e[0;32mAstronaut \e[1;35m[24]\e[0;32mCryingTroll
+\e[1;36m[25]\e[0;32mCreeper \033[1;33m[26]\e[0;32mGigaChad \e[1;35m[27]\e[0;32mBaymax
 \033[1;31m[x]Exit [00]Menu [D]Default-Theme
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
@@ -379,6 +380,108 @@ elif [[ $islem == 21  ]]; then
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Dog/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 22  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Sonic
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Sonic/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 23  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Astronaut
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Astronaut/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 24  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|CryingTroll
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd CryingTroll/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 25  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Creeper
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Creeper/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 26  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|GigaChad
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd GigaChad/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 27  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Baymax
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Baymax/ && cp -r neofetch /home/$USER/.config
 clear   
 neofetch
 
