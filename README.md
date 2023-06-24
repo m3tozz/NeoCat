@@ -9,6 +9,8 @@ What is NeoCat?
 NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
 
 --------------------------------------------------------------------------
+[![Hits](https://hits.sh/github.com/m3tozz/NeoCat.svg)](https://hits.sh/github.com/m3tozz/NeoCat/)
+
 Installation
 --
 ```bash
