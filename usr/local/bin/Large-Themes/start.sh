@@ -15,7 +15,7 @@ echo -e '\033[0;36m
 \033[1;33m[15]\e[0;32mSpider-Man \e[1;34m[16]\e[0;32mMai \033[1;33m[17]\e[0;32mMetoCat \e[1;36m[18]\e[0;32mBatMan \e[1;34m[19]\e[0;32mHello-Kitty
 \e[1;34m[20]\e[0;32mGarfield \e[1;35m[21]\e[0;32mDog \e[1;36m[22]\e[0;32mSonic \033[1;33m[23]\e[0;32mAstronaut \e[1;35m[24]\e[0;32mCryingTroll
 \e[1;36m[25]\e[0;32mCreeper \033[1;33m[26]\e[0;32mGigaChad \e[1;35m[27]\e[0;32mBaymax
-\033[1;31m[x]Exit [00]Menu [D]Default-Theme
+\033[1;31m[x]Exit [D]Default-Theme
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
 }
@@ -502,10 +502,6 @@ sleep 1
 clear   
 neofetch
 
-elif [[ $islem == 0 || $islem == 00 ]]; then
-        sleep 1
-        cd ..
-        bash ./neocat.sh
 elif [[ $islem == x || $islem == X ]]; then
 	clear
 echo -e "\033[1;31m GoodBye\033[0m"
