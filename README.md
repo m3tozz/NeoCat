@@ -3,7 +3,7 @@
 ![neocat](https://github.com/m3tozz/NeoCat/assets/79897762/dd5c73f0-fd14-4699-a94f-638b091291d1)
 
 --------------------------------------------------------------------------
-<br>
+
 <img src="https://hits.sh/github.com/m3tozz/NeoCat.svg?color=fe7d37" alt="r10" hspace="10"  align="right" /> What is NeoCat? <br>
 NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
 
@@ -33,7 +33,7 @@ bash ./install-icons.sh
 ```
 --------------------------------------------------------------------------
 
-
+<br>
 <p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/007ac431-538b-47df-bcb6-7721667257f3">
 <p align="center"><a href="https://neocat-themes.blogspot.com/">Show All NeoCat Themes</a>
   
