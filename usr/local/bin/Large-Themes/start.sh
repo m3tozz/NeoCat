@@ -16,7 +16,7 @@ echo -e '\033[0;36m
 \e[1;34m[20]\e[0;32mGarfield \e[1;35m[21]\e[0;32mDog \e[1;36m[22]\e[0;32mSonic \033[1;33m[23]\e[0;32mAstronaut \e[1;35m[24]\e[0;32mCryingTroll
 \e[1;36m[25]\e[0;32mCreeper \033[1;33m[26]\e[0;32mGigaChad \e[1;35m[27]\e[0;32mBaymax \033[1;33m[28]\e[0;32mSoviet \e[1;36m[29]\e[0;32mArch-BTW
 \e[1;35m[30]\e[0;32mPony \e[1;34m[31]\e[0;32mAnimo \e[1;36m[32]\e[0;32mAmongUS \033[1;33m[33]\e[0;32mOrigami \e[1;35m[34]\e[0;32mPixar-Lamp
-\033[1;31m[x]Exit [00]Menu [D]Default-Theme
+\033[1;31m[x]Exit [D]Default-Theme
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
 }
