@@ -4,12 +4,12 @@
 
 --------------------------------------------------------------------------
 
-<img src="https://hits.sh/github.com/m3tozz/NeoCat.svg?color=fe7d37" alt="r10" hspace="10" width="30"  align="right" /> What is NeoCat? <br>
+<img src="https://hits.sh/github.com/m3tozz/NeoCat.svg?color=fe7d37" alt="r10" hspace="10" align="right" /> What is NeoCat? <br>
 NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
 
 --------------------------------------------------------------------------
 
-<img src="https://github.com/m3tozz/NeoCat/assets/79897762/87ef7d1f-560e-4b81-817f-5383c9bdade4" alt="r10" hspace="10"  align="right" /> Installation
+<img src="https://github.com/m3tozz/NeoCat/assets/79897762/87ef7d1f-560e-4b81-817f-5383c9bdade4" alt="r10" hspace="10" width="60"  align="right" /> Installation
 --
 ```bash
 git clone https://github.com/m3tozz/NeoCat.git 
