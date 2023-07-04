@@ -9,7 +9,7 @@ NeoCat contains its own neofetch configurations and uploads the selected configu
 
 --------------------------------------------------------------------------
 
-<img src="https://github.com/m3tozz/NeoCat/assets/79897762/87ef7d1f-560e-4b81-817f-5383c9bdade4" alt="r10" hspace="10" width="40"  align="right" /> Installation
+<img src="https://github.com/m3tozz/NeoCat/assets/79897762/87ef7d1f-560e-4b81-817f-5383c9bdade4" alt="r10" hspace="10" width="35"  align="right" /> Installation
 --
 ```bash
 git clone https://github.com/m3tozz/NeoCat.git 
