@@ -3,6 +3,8 @@
 	clear
 	echo -e "\033[0;31mBacking Up...\033[1;36m"
 	mkdir -p Backup
+ 	rm -r Backup/config.conf
+	rm -r Backup/ascii.txt
 	cp -r /home/$USER/.config/neofetch Backup
 	clear
 	echo -e "\033[31m Backed Up!\033[0m"
