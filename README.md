@@ -31,6 +31,13 @@ Install Terminal Icons (DroidSansMono-Icons)
 ```bash
 bash ./install-icons.sh
 ```
+
+Back Up Your Own NeoFetch Configuration
+--
+
+```bash
+bash ./backup.sh
+```
 --------------------------------------------------------------------------
 
 <br>
