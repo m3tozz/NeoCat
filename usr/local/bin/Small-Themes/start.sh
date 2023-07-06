@@ -433,11 +433,6 @@ sleep 1
 clear   
 neofetch
 
-
-elif [[ $islem == 0 || $islem == 00 ]]; then
-        sleep 1
-        cd ..
-        bash ./neocat.sh
 elif [[ $islem == x || $islem == X ]]; then
 	clear
 echo -e "\033[1;31m GoodBye\033[0m"
