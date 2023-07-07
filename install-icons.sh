@@ -12,16 +12,16 @@ echo -e '\033[1;36m⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                            
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                       
 '
 
-        echo -ne "\e[0;32mInstall Terminal Icons (DroidSansMono-Icons) (Y/N)" ; read islem
+        echo -ne "\e[0;32mInstall Terminal Icons (icons-in-terminal) (Y/N)" ; read islem
 }
 
 banner
 if [[ $islem == y || $islem == Y ]]; then
 	clear
 	echo -e "\033[0;31mSetting Up...\033[1;36m"
-	mkdir -p ~/.local/share/fonts
-	cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/DroidSansMono/DroidSansMNerdFont-Regular.otf
-	clear
+	git clone https://github.com/sebastiencs/icons-in-terminal.git
+	cd icons-in-terminal
+	./install.sh
 	echo -e "\033[0m Installed"
 
 elif [[ $islem == n || $islem == N ]]; then
