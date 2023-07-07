@@ -22,7 +22,9 @@ if [[ $islem == y || $islem == Y ]]; then
 	git clone https://github.com/sebastiencs/icons-in-terminal.git
 	cd icons-in-terminal
 	./install.sh
-	echo -e "\033[0m Installed"
+       	sleep 2
+	./print_icons.sh
+	echo -e "\033[0;31mInstalled\033[0m"
 
 elif [[ $islem == n || $islem == N ]]; then
 	clear
