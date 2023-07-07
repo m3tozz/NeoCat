@@ -49,7 +49,7 @@ bash ./backup.sh
 <p align="center"><a href="https://www.pling.com/p/2034925/" target="_blank"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="44%">
  
 --------------------------------------------------------------------------
-Donate | Bağış Yap
+Support | Bağış Yap
  --
  <p align="left"><a href="https://kreosus.com/m3tozzch4rm">Donate Link (Turkish)</a> or <align="right"><a href="https://www.buymeacoffee.com/m3tozz">BuyMeACoffee</a>.
  
