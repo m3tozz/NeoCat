@@ -3,13 +3,13 @@
 clear
 
 banner(){
-echo -e '\033[1;36m⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                       ⠀⠀
+echo -e '\033[1;36m
  _   _             ____      _   
 | \ | | ___  ___  / ___|__ _| |_ 
 |  \| |/ _ \/ _ \| |   / _` | __|Install-Terminal-Icons
 | |\  |  __/ (_) | |__| (_| | |_ 
 |_| \_|\___|\___/ \____\__,_|\__|
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                       
+                                     
 '
 
         echo -ne "\e[0;32mInstall Terminal Icons (icons-in-terminal) (Y/N)" ; read islem
@@ -24,7 +24,7 @@ if [[ $islem == y || $islem == Y ]]; then
 	./install.sh
        	sleep 2
 	./print_icons.sh
-	echo -e "\033[0;31mInstalled\033[0m"
+	echo -e "\033[1;31mInstalled. \033[1;36mNow Start A New Terminal\033[0m"
 
 elif [[ $islem == n || $islem == N ]]; then
 	clear
