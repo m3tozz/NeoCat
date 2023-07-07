@@ -24,7 +24,7 @@ if [[ $islem == y || $islem == Y ]]; then
 	./install.sh
        	sleep 2
 	./print_icons.sh
-	echo -e "\033[1;31mInstalled. \033[1;36mNow Start A New Terminal\033[0m"
+	echo -e "\033[1;31mInstalled! \033[1;36mNow Start A New Terminal\033[0m"
 
 elif [[ $islem == n || $islem == N ]]; then
 	clear
