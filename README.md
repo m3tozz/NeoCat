@@ -25,7 +25,7 @@ Run(Without Install)
 ```bash
 bash ./neocat.sh
 ```
-Install Terminal Icons (DroidSansMono-Icons)
+Install Terminal Icons (icons-in-terminal)
 --
 
 ```bash
