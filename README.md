@@ -49,21 +49,3 @@ Back Up Your Own NeoFetch Configuration
 bash ./backup.sh
 ```
 --------------------------------------------------------------------------
-
-<br>
-<p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/007ac431-538b-47df-bcb6-7721667257f3">
-<p align="center"><a href="https://neocat-themes.blogspot.com/">Show All NeoCat Themes</a>
-  
---------------------------------------------------------------------------
-  
-<p align="center"><a href="https://www.pling.com/p/2034925/" target="_blank"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="44%">
- 
---------------------------------------------------------------------------
-Support | Bağış Yap
- --
- <p align="left"><a href="https://kreosus.com/m3tozzch4rm">Donate Link (Turkish)</a> or <align="right"><a href="https://www.buymeacoffee.com/m3tozz">BuyMeACoffee</a>.
-<details>
-<summary> What's the best nation in the world? </summary>
-  Answer: Donation
-</details>
---------------------------------------------------------------------------
