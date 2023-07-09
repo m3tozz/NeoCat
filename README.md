@@ -2,6 +2,14 @@
 
 <a href='https://forum.shiftdelete.net/members/eminkrkt.661270/'> Social Media</a>
 
+--------------------------------------------------------------------------
+<h2>Repository what did i change</h2>
+<p>I suggest you edit the code. the code is complex and very long. There is no need to constantly write code that can always be called over and over by a simple function. I edited the codes with these in mind.</p>
+
+
+--------------------------------------------------------------------------
+
+
 ![neocat](https://github.com/m3tozz/NeoCat/assets/79897762/dd5c73f0-fd14-4699-a94f-638b091291d1)
 
 --------------------------------------------------------------------------
