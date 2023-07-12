@@ -22,9 +22,11 @@ if [[ $islem == y || $islem == Y ]]; then
 	git clone https://github.com/sebastiencs/icons-in-terminal.git
 	cd icons-in-terminal
 	./install.sh
-       	sleep 2
+        clear
+	echo -e "\033[0;31mNeoCat - NeoFetch Theme Pack!\033[0m"
+       	sleep 3
 	./print_icons.sh
-	echo -e "\033[1;31mInstalled! \033[1;36mNow Start A New Terminal\033[0m"
+	echo -e "\033[1;31mInstalled! \033[1;36mNow Start A New Terminal :) \033[0m"
 
 elif [[ $islem == n || $islem == N ]]; then
 	clear
