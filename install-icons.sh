@@ -23,7 +23,7 @@ if [[ $islem == y || $islem == Y ]]; then
 	cd icons-in-terminal
 	./install.sh
         clear
-	echo -e "\033[0;31mNeoCat - NeoFetch Theme Pack!\033[0m"
+	echo -e "\033[1;31mNeoCat - NeoFetch Theme Pack!\033[0m"
        	sleep 3
 	./print_icons.sh
 	echo -e "\033[1;31mInstalled! \033[1;36mNow Start A New Terminal :) \033[0m"
