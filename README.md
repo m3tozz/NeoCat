@@ -9,7 +9,7 @@ NeoCat contains its own neofetch configurations and uploads the selected configu
 
 --------------------------------------------------------------------------
 
-<a href="https://www.instagram.com/metinzuhree/"><img src="https://img.shields.io/badge/metinzuhree-grey?&logo=instagram" alt="r10" hspace="10"  align="right" />Installation
+<a href="https://www.instagram.com/metinzuhree/"><img src="https://img.shields.io/badge/metinzuhree-grey?&logo=instagram" alt="r10" hspace="10"  align="right" /></a>Installation
 --
 ```bash
 git clone https://github.com/m3tozz/NeoCat.git 
