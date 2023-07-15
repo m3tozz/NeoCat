@@ -1,4 +1,4 @@
-<center>NeoCat Themes</center></p>
+<p><center>NeoCat Themes</center></p>
 <details>
 <summary> Large-Themes </summary>
   
