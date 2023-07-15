@@ -42,7 +42,7 @@ bash ./backup.sh
 
 <br>
 <p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/007ac431-538b-47df-bcb6-7721667257f3">
-<p align="center"><a href="https://neocat-themes.blogspot.com/">Show All NeoCat Themes</a>
+<p align="center"><a href="THEMES.md">Show All NeoCat Themes</a>
   
 --------------------------------------------------------------------------
   
