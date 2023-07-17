@@ -1,5 +1,27 @@
 # Made By M3TOZZ
 # https://github.com/m3tozz/NeoCat.git
+
+if ! command -v neofetch &> /dev/null
+then
+    	clear
+    	echo -e "\033[1;31m
+NeoFetch Not Found!\033[1;33m
+To use NeoCat, you must first download NeoFetch :)
+
+\033[1;31mNeoFetch Installation:
+\033[1;36m
+Debian or Ubuntu using APT
+→ sudo apt install neofetch
+\033[1;32m
+Installing Neofetch in Arch Linux is easy as well
+→ sudo pacman -S neofetch
+\033[1;35m
+You can install Neofetch on RHEL-based distributions using DNF
+→ sudo dnf install neofetch
+    	\033[0m"
+   	 exit
+fi
+
 clear
 banner(){
 echo -e '\033[1;36m
@@ -51,3 +73,4 @@ echo -e "\033[0m GoodBye."
 else
 	echo -e '\033[36;40;1m Wrong transaction number!'	
 fi
+# metinzuhre
