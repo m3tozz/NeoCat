@@ -19,6 +19,8 @@ Installing Neofetch in Arch Linux is easy as well
 You can install Neofetch on RHEL-based distributions using DNF
 → sudo dnf install neofetch
     	\033[0m"
+    	sleep 1000
+    	exit
 fi
 clear
 banner(){
@@ -71,3 +73,4 @@ echo -e "\033[0m GoodBye."
 else
 	echo -e '\033[36;40;1m Wrong transaction number!'	
 fi
+# metinzuhre
