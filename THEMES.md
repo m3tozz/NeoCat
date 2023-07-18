@@ -56,6 +56,9 @@ NeoCat Themes
 ## CryTroll
 ![CryTroll](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJeXpkpLRgzYZsUIbHZW0356MXL6drHpxaauT2Fag6YWmaCfHMShPSUXFRpyYEzvDbgY-mSAKjvyeZwJyXoFzboVCH1zO_reHCW2xw23bPUBTrNk8C9X66-kTgAH8pkF-8TiiB48WgHvgZQ_qBaa_ID0vgIzk-5P_NkXm8Y9NA33j8Sz27IBzAw5ZSCe0/s320/CryingTroll.png)
 
+## 8-Bit
+![8-Bit](https://blogger.googleusercontent.com/img/a/AVvXsEjRsDtNFsM2dYtQXdTf1Ol3Z3077Bvi1FOi8SNrhu0gY5TAtl0tEnkWmgsvNxPgdMuwQL1z0_BRyt1WVwCf11UNIAFFuE_aeCpiMJ2SsXOiW2tKwT2eedGMrmAwM2UPTVtorUkJoGheab-vcwx8btwWegvbPpz245xBks4Wn9Xn39x7sZdzL3ytahFqPeQ)
+
 ## Creeper
 ![Creeper](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHs7VmfPAJJMG4CQFuAJcptaoh661udfbK2p2BAQnSo3ke8SsyBNBU7hJ7zjJRiqK-sm-Oh3bEaXv1fZQ_aApm7p5pnlWBm9-LZRAq56FQQeHCaeWuddTi7hcFs52IM9_451hUi3QzP1EK_45YprVHjFFDiVDbwQcjsGQYNSt78C6O6IAadsLKN9L37Ug/s320/Creeper.png)
 
@@ -97,6 +100,24 @@ NeoCat Themes
 
 ## Soviet
 ![Soviet](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMUwb-7011Nq3y9idnE16JAN-JQjRGM1tYmpI8c_lRwiHDsFhzqj4qcMgC51-CHZSRUsBO91xf1tt2qAg91NL6NYgBaI6UZOgzjZF_kXyxENRc-MsRsYM-PrjyvxDap1W_pvRZtihCYmmUrJvH-zuqctKWzII7KAM4ounumobHNbPWFljy1TLolAMxjqU/s320/soviet-neocat.png)
+
+## Heisenberg
+![Heisenberg](https://blogger.googleusercontent.com/img/a/AVvXsEjyquWZ8yMiyBDF4TM0cf5MOFfNggJbl1SoYQoJfGMcXBoxY63PjUE4tiwU0QKlT_uHK5uqMpZLTs7ERxgYVW7egQnsj5uYoYHibmX9J7zguBZSFvCiduMrsxv-s_afDKbFu4oNjRSmiLZjPlg-MsQU4DUvO4zG6TlENJQLeeq0Og8Z348A45IuXRh_1IM)
+
+## Arch-OLD
+![Arch-OLD](https://blogger.googleusercontent.com/img/a/AVvXsEgNSFPSur0v5fhehdDB4zaTrVZK7_mu4obvGr4fHi_Y0flEJ25c7CWHj29VgdE2Ur8ZgJeoVEa9o_ddwEzo2QKmj_KeD1r5I-AVFhMOV9H_sSCEgTa5nos9R5RcX_GdUv0--uA5lunveuxW3CAfvMcrlsgewbMoND3UHGz_b8qq5D-nlJ02BK_eOcseATs)
+
+## Pentagram
+![Pentagram](https://blogger.googleusercontent.com/img/a/AVvXsEgZWDfvcykYrvDttN3FhQV9lLHgqv935YgfVRi-Eg_w0yEx9A0ceDJlczkgP9IawqNo0Ue3egVGoeIZqMHXa5JnJLf28J6JTjKm0Oa9SPEwRmGQOmkC582wcOf2GWX_dFp6WYDA087QEOtG5XvDJuR25ScNkNZTW90ryUfU_DrbYtcm8VZWO4mTw1aWOv4)
+
+## Simpsons
+![Simpsons](https://blogger.googleusercontent.com/img/a/AVvXsEi5hbkGHBqTt7MFKKK8sLkYt47Tir9JcMYMu7jihRJXiyS1_vyBbh8namSP_zkaXxO1pQFuxbo3HcsAHoCom3PnFlkYh9FRt48N3vW-5Ym1dm_9JBuiiHAbM-0b2vla9bYRXvcMZGodW-7Bea0FU2vkoYrqByEYKghv-XRUOpXN4Evooh4J2-jPOiLAsSo)
+
+## Ubuntu-OLD
+![Ubuntu-OLD](https://blogger.googleusercontent.com/img/a/AVvXsEi4UBKrcO52_GQ_1dTnjoR7Hnkni3Ulq3dJxlvgc0xCWt-s2GLqt-zLo1lhIN9hGI11ipAORhCtGR_xsgp8rY-U_SAtpmdgXStKw2v7EBdiyQlPrGRKGUTfXvU5TXtWL19TNORzZqjV9dY41rRQdRsgVe7AIucV74ki4KUxof4KPKMYMbalg0xO3vV-Njk)
+
+## Tux
+![Tux](https://blogger.googleusercontent.com/img/a/AVvXsEhvv8gAQ5tE7YUp2jiTBMhUmmhg7PsbyzT_G6C_YdDRSkKa1s9kaAKDSXI_5lpmdWWO6h_SKB3Fo5Igoqt-KBkK-XIhDejuiFwclQ7Dwl6BFYX0kKVgeDnIkDEcE9b8BzJX5vrpP9XBkgp3KtQTtbEDYFENqC45aNKl2yDH_eXxg-jiUSZQBDgBgN8qMoc)
 
 </details>
 
