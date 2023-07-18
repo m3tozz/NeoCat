@@ -14,7 +14,7 @@ echo -e '\033[0;36m
 \e[1;34m[10]\e[0;32mTux \e[1;35m[11]\e[0;32mPalm \e[1;36m[12]\e[0;32mAlien \033[1;33m[13]\e[0;32mTruck \e[1;35m[14]\e[0;32mCocktail
 \033[1;33m[15]\e[0;32mSmall-Buntu \e[1;35m[16]\e[0;32mPhone \e[1;34m[17]\e[0;32mDuck \e[1;36m[18]\e[0;32mSimba \033[1;33m[19]\e[0;32mDinosaurs
 \e[1;36m[20]\e[0;32mSheriff \e[1;34m[21]\e[0;32mGiraffe \033[1;33m[22]\e[0;32mDog \e[1;35m[23]\e[0;32mKittyCat \e[1;34m[24]\e[0;32m8-Bit
-\033[1;31m[x]Exit [00]Menu [D]Default-Theme
+\033[1;31m[x]Exit [D]Default-Theme
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
 }
