@@ -56,9 +56,6 @@ NeoCat Themes
 ## CryTroll
 ![CryTroll](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJeXpkpLRgzYZsUIbHZW0356MXL6drHpxaauT2Fag6YWmaCfHMShPSUXFRpyYEzvDbgY-mSAKjvyeZwJyXoFzboVCH1zO_reHCW2xw23bPUBTrNk8C9X66-kTgAH8pkF-8TiiB48WgHvgZQ_qBaa_ID0vgIzk-5P_NkXm8Y9NA33j8Sz27IBzAw5ZSCe0/s320/CryingTroll.png)
 
-## 8-Bit
-![8-Bit](https://blogger.googleusercontent.com/img/a/AVvXsEjRsDtNFsM2dYtQXdTf1Ol3Z3077Bvi1FOi8SNrhu0gY5TAtl0tEnkWmgsvNxPgdMuwQL1z0_BRyt1WVwCf11UNIAFFuE_aeCpiMJ2SsXOiW2tKwT2eedGMrmAwM2UPTVtorUkJoGheab-vcwx8btwWegvbPpz245xBks4Wn9Xn39x7sZdzL3ytahFqPeQ)
-
 ## Creeper
 ![Creeper](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHs7VmfPAJJMG4CQFuAJcptaoh661udfbK2p2BAQnSo3ke8SsyBNBU7hJ7zjJRiqK-sm-Oh3bEaXv1fZQ_aApm7p5pnlWBm9-LZRAq56FQQeHCaeWuddTi7hcFs52IM9_451hUi3QzP1EK_45YprVHjFFDiVDbwQcjsGQYNSt78C6O6IAadsLKN9L37Ug/s320/Creeper.png)
 
@@ -132,6 +129,9 @@ NeoCat Themes
 
 ## CockTail
 ![CockTail](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivIxYG5QK-UbWVjnVxZKdqlgOybzK4NHMIuV0ROSYM74zywcl0h03W1lkdVktObQDyn9Mh3VZsq8qXokoQgGu2OgKWKBaxID3JP89lVYzj5mk-Yz1sjM-I0iWVleAbcNhRQTAv76rx4_ZkAE8Y2tRpJ8Ge6Ix9rQVwxjTMVMCR0kuqnLoTCEKdCKwo3PI/s320/Cocktail.png)
+
+## 8-Bit
+![8-Bit](https://blogger.googleusercontent.com/img/a/AVvXsEjRsDtNFsM2dYtQXdTf1Ol3Z3077Bvi1FOi8SNrhu0gY5TAtl0tEnkWmgsvNxPgdMuwQL1z0_BRyt1WVwCf11UNIAFFuE_aeCpiMJ2SsXOiW2tKwT2eedGMrmAwM2UPTVtorUkJoGheab-vcwx8btwWegvbPpz245xBks4Wn9Xn39x7sZdzL3ytahFqPeQ)
 
 ## Crocodile
 ![Crocodile](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMWe48QqpqgrGez6a0VdzJQf3hhLNvCVxN4Q21cS5JSGToswyTHIs4kxV67Uq43v_pprz6pBfwjiR3Anr2AO0fg3PcSF_AxPgv0n2ffBQItcbaJLx_lUvE6C3TD_bq8_1en7V6xhPPRmqFZ8Pn7Y6eb13C9igxpQZArggyGHnr7AV1S26rDxbPR8vy65g/s320/Crocodile.png)
