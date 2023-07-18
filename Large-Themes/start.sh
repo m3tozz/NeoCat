@@ -16,6 +16,8 @@ echo -e '\033[0;36m
 \e[1;34m[20]\e[0;32mGarfield \e[1;35m[21]\e[0;32mDog \e[1;36m[22]\e[0;32mSonic \033[1;33m[23]\e[0;32mAstronaut \e[1;35m[24]\e[0;32mCryingTroll
 \e[1;36m[25]\e[0;32mCreeper \033[1;33m[26]\e[0;32mGigaChad \e[1;35m[27]\e[0;32mBaymax \033[1;33m[28]\e[0;32mSoviet \e[1;36m[29]\e[0;32mArch-BTW
 \e[1;35m[30]\e[0;32mPony \e[1;34m[31]\e[0;32mAnimo \e[1;36m[32]\e[0;32mAmongUS \033[1;33m[33]\e[0;32mOrigami \e[1;35m[34]\e[0;32mPixar-Lamp
+\033[1;33m[35]\e[0;32mPentagram \e[1;35m[36]\e[0;32mSimpsons \e[1;34m[37]\e[0;32mArch-OLD \e[1;36m[38]\e[0;32mUbuntu-OLD
+\e[1;35m[39]\e[0;32mTux \e[1;34m[40]\e[0;32mHeisenberg
 \033[1;31m[x]Exit [00]Menu [D]Default-Theme
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
@@ -603,6 +605,108 @@ elif [[ $islem == 34  ]]; then
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Pixar-Lamp/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 35  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Pentagram
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Pentagram/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 36  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Simpsons
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Simpsons/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 37  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Arch-OLD
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Arch-OLD/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 38  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Ubuntu-OLD
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Ubuntu-OLD/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 39  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Tux
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Tux/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 40  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Heisenberg
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Heisenberg/ && cp -r neofetch /home/$USER/.config
 clear   
 neofetch
 
