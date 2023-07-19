@@ -40,10 +40,7 @@ bash ./backup.sh
 ```
 --------------------------------------------------------------------------
 
-<p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/007ac431-538b-47df-bcb6-7721667257f3">
-
- Themes
---
+NeoCat Themes
 <details>
 <summary> Large-Themes </summary>
   
@@ -239,6 +236,10 @@ bash ./backup.sh
 
 <a href="https://neocat-themes.blogspot.com/">https://neocat-themes.blogspot.com/</a>
 
+
+--------------------------------------------------------------------------
+
+<p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/007ac431-538b-47df-bcb6-7721667257f3">
 
 --------------------------------------------------------------------------
   
