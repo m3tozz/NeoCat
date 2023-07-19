@@ -39,8 +39,9 @@ Back Up Your Own NeoFetch Configuration
 bash ./backup.sh
 ```
 --------------------------------------------------------------------------
+Themes
+--
 
-NeoCat Themes
 <details>
 <summary> Large-Themes </summary>
   
