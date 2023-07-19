@@ -1,6 +1,6 @@
 NeoCat Themes
 <details>
-<summary> Large-Themes </summary>
+<div class="left"><summary> Large-Themes </summary>
   
 ## Animo
 ![Animo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-jn-r7L09YeEoptFFlhln0Bey_8GKS5tanzpJfIK8OVCjLJJl4kPEiiaUWIVv--QJaRMqoui1PF-wuwVDaIQ2iMadhWi5jRxMH3Ad0--YrdpupuB5WlWGuV-WQGsvn1e2ZwxJ6EZFgtWfYvTrDE8p_2b1BsexRIDRjqnXiwDy1Crlmt3URBA9VSQWrak/s320/animo-neocat.png)
@@ -116,9 +116,9 @@ NeoCat Themes
 ## Tux
 ![Tux](https://blogger.googleusercontent.com/img/a/AVvXsEhvv8gAQ5tE7YUp2jiTBMhUmmhg7PsbyzT_G6C_YdDRSkKa1s9kaAKDSXI_5lpmdWWO6h_SKB3Fo5Igoqt-KBkK-XIhDejuiFwclQ7Dwl6BFYX0kKVgeDnIkDEcE9b8BzJX5vrpP9XBkgp3KtQTtbEDYFENqC45aNKl2yDH_eXxg-jiUSZQBDgBgN8qMoc)
 
-</details>
+</details></div>
 
-<details>
+<div class="right"><details>
 <summary> Small Themes </summary>
 
 ## Alien
@@ -190,6 +190,6 @@ NeoCat Themes
 ## Tux
 ![Tux](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuTVPngl0-YhbYZcH7vkT0NHwZJMShjGYS55rANtr346yKwjc9GZTjA5XvTOHshXs4J804oaXlvYQCUNTtVkXJU5on9vKDRbIiatLXUztqRJZ1_YYH9-cnT4uXg_sBaorIyPPWnFnVoHNDhX4_RdOnMslu_MgppDUZ8TsAtD6ONXW0i4V9sz-kdhE_Xs0/s320/Tux.png)
 
-</details>
+</details></div>
 
 <a href="https://neocat-themes.blogspot.com/">https://neocat-themes.blogspot.com/</a>
