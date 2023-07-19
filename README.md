@@ -39,7 +39,7 @@ Back Up Your Own NeoFetch Configuration
 bash ./backup.sh
 ```
 --------------------------------------------------------------------------
-<a href="https://www.buymeacoffee.com/m3tozz"><img src="https://img.shields.io/badge/m3tozz-grey?&logo=buymeacoffee" alt="r10" hspace="10"  align="right" /></a>Themes
+<a href="https://discord.com/channels/@me/1069900432941522994"><img src="https://img.shields.io/badge/metozz-grey?&logo=discord" alt="r10" hspace="10"  align="right" /></a>Themes
 --
 
 <details>
