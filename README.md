@@ -9,12 +9,12 @@ NeoCat contains its own neofetch configurations and uploads the selected configu
 
 --------------------------------------------------------------------------
 
-<a href="https://www.instagram.com/metinzuhree/"><img src="https://img.shields.io/badge/metinzuhree-grey?&logo=instagram" alt="r10" hspace="10"  align="right" /></a>Install(Automatic)
+<a href="https://www.instagram.com/metinzuhree/"><img src="https://img.shields.io/badge/metinzuhree-grey?&logo=instagram" alt="r10" hspace="10"  align="right" /></a>Install (Automatic)
 --
 ```bash
 git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && sudo make install
 ```
-Install(Manual)
+Install (Manual)
 --
 ```bash
 git clone https://github.com/m3tozz/NeoCat.git 
@@ -25,7 +25,7 @@ cd NeoCat
 ```bash
 sudo make install
 ```
-Run(Without Install)
+Run (Without Install)
 --
 ```bash
 bash ./neocat.sh
