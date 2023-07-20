@@ -1,7 +1,7 @@
 # Made By M3TOZZ
 # https://github.com/m3tozz/NeoCat.git
 
-if ! command -v neofetch &> /dev/null
+if ! command -v neofetch
 then
     	clear
     	echo -e "\033[1;31m
