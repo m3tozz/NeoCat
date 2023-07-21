@@ -62,6 +62,9 @@ Themes
 ## Windows-7
 ![Windows-7](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge9Uhup4wYWPEUPz4C9YJ3YGodXi6wvOrP1435QrFjg7cYmi4WdyNhGlAonI0dIy-9atbtKUrMPmn0m6MYUAMKXMW2QGGs3jVxx3SwT0mkH9APt4a3xSNrfwGTS9fldw21FQlJsBrlcW_CpGKGfMX0M438OM6KW3HuBKBsvjIYTsnRO4rw7NkTUtXjCQE/s320/Windows-7.png)
 
+## Inspector-Gagdet
+![Inspector-Gagdet](https://blogger.googleusercontent.com/img/a/AVvXsEgl0g3Vcr_-ZSD8vuvU5KnPH6YFIddStth1WT7zwQgmHgdMS16jfGB-uksz-hKbE3n_0u4TlQBVkYoyA8E00Usg3j8OcHn-gA8gJrkQJlMS0Ure1y9-USkMoNCaxNimtW0ns_s2oefUyKVqWKRWa98RQiIR2P6QGHu8uIQeMXifh_59UhPYgN2RnmSopks)
+
 ## Sonic
 ![Sonic](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYJhu2YvcEumFY45M8ActH9Ouqpwvv56KOyJbH4FdAAN1j50KH96jSxi096kjFjQwQG9ZjQiShZMdSQsFJ8ttpuy7fBi_ANXdVIRY64GvNFHppFHhfw0cGEOybgZfRFG7ksQl2KJr4feNa2Q444S8i5jJvMN1gu6tbz-A3i5W4CiDqA286cw7DuXu5gjk/s320/Sonic.png)
 
@@ -88,6 +91,9 @@ Themes
 
 ## Hello-Kitty
 ![Hello-Kitty](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6spkzx3whcSvw7DMRxOMG6384DlrA-W-DQt7CXc-JtiNCqmYX7sBUS3YuqM82EqcHXE-WIgIkGzeBsCuyWeeV1jEPFaoeY3CNDs0PeLlx3eBP1OJlNEuqNYEvO18sivhgHW786YsEnSm1RY8A8TNEav2OKcPhaPHIjLpW4WMyR-7teDCqqFnWKkwLyVY/s320/Hello-Kitty.png)
+
+## Superman
+!Superman](https://blogger.googleusercontent.com/img/a/AVvXsEj_vnFMtiN-7PUdkxFkw5kITn4rmdNmXK54BC4VrhDo0Vaa1Pe078wN4T56uIYCFLu_LrwMGV2E3WSJ4_ko6OSABJ8sZeaQ6lz-sQu7D_SQviYhBJFokq1L0JrJGsUcXR015XYmPAflZqV9d0LgqCmAlkXa8DTMQcsnwwHlgXgH_WWIMm9NDZqNVq0Qaws)
 
 ## GigaChad
 ![GigaChad](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWRrzA9zYreg-s3qb9ni4m2TXV8_TF7DaiA64hXmgIC_VuQ4O07WwPz6S7wrGdn2ggAxGQcCx2B4sIbFfMaZ3gqD5fzd-4MWJyT3qVp_Xxq_0pK_mrVe5B1XWxMkZEu7WjI9e4jKqW0gcBDOJCyagG3ucjVnLV-HJWenpCEze9zTGpzvC81dlilGNGd2M/s320/GigaChad.png)
@@ -175,6 +181,9 @@ Themes
 ## KittyCat
 ![KittyCat](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnFyW_X8skLt1Gmxm4Cb4Mm0CCCeAu0kGaKvBM26ZLjKgclljVHK6AFQN-es_rolw-d5Cm2IthN4hlNY_c5feJbpgg6TAxLGQmstlABDj4WFxJZhB4uHk6ZOnF7c7X6kKBpBirH40ngKkMoJAx0hpPBHcj3pWlvDDyPaPh0IHTKO-TO3obzsZZk0Rcb98/s320/kittycat-neocat.png)
 
+## Robo-Dog
+![Robo-Dog](https://blogger.googleusercontent.com/img/a/AVvXsEhAMiERuP1MOyGoR4cbjDj6__5Gr0hhY8YeR5Vfqen9cRgf_8wKVGeH-3hFa9Ee4x7O3W-qkjeCJPBLCQlKSMkLA9BOrCKLODsq_nkFAFkZ1uFQqrWSen-tOxOaxDGDuebB0itYqGRAatwcSPjVE-DhXCuxb-iT5XgnxB6MdIiiy7zmGw5KsNoFtmot8Os)
+
 ## CockTail
 ![CockTail](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivIxYG5QK-UbWVjnVxZKdqlgOybzK4NHMIuV0ROSYM74zywcl0h03W1lkdVktObQDyn9Mh3VZsq8qXokoQgGu2OgKWKBaxID3JP89lVYzj5mk-Yz1sjM-I0iWVleAbcNhRQTAv76rx4_ZkAE8Y2tRpJ8Ge6Ix9rQVwxjTMVMCR0kuqnLoTCEKdCKwo3PI/s320/Cocktail.png)
 
@@ -222,6 +231,15 @@ Themes
 
 ## Simba
 ![Simba](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8O5fKpmILJxKmStzjgRBl-96lDWj51lOESZ8iT0Jkr3B0tO9BJY9VppCVsXKj5MmV5ayWsK1_1XLFYpRzUD3TgutniZ4NFgn95YJDRTsbZ316cM-inDHiLzc8gOWxKoTfMrGmG1uZ1Q8GlnSJpgCsbM0CHhPpx7ZtXEIP2dA3CrdiHh2z-dpaSz3BpVc/s1600/Simba.png)
+
+## Archtozz
+![Archtozz](https://blogger.googleusercontent.com/img/a/AVvXsEhgG5PYYBxa0UFTbgMUQ-vSMJiHIr7Ol4xZBWWjpg5OuT13ZAoTeOBHXU9SG1RI8sy7aFtNUFOsII4fRLRQLEUECEgJ-SNIdS2NIr4FRJA8QHmoePrx8SeCVtY54j2RzfrxsUKt_42vR2E1LCGTY0L6VcoDhYr7jXF7LNJyc9CxyuHdCQ7c9jrhct2N3Sk)
+
+## Debiatozz
+![Debiatozz](https://blogger.googleusercontent.com/img/a/AVvXsEjNuzlTDLsmyka4DJl1y5WFWrMmrZhL0tKCCdP5vyvY9NwWIw2TosSEq8kihgDhU7P4UHibsiMlt6aQ-uepqG9nLTH6ifsJjwFpSeETGUWMP7WgUHndzKdK34kYaDj995D1MltU0iLEDcD0NhjVGNsZiNEkiNCUZmPYFTyHZLDn13omN1E611DCSC4S4W4)
+
+## Fedortozz
+![Fedortozz](https://blogger.googleusercontent.com/img/a/AVvXsEgpvP_JITcUumFmUExFfQ0VS-Mp2xirsiiWVvbwC0kNcxCjjcLfYWmlBniaLinEKeUgU49MytgVWXj8xVIjbqZEtJgTC8EqewBdlnq3uksRCxPzi2aLIIgSuVx_BXq6Xli5-IMFU40CJjC2u-OTmnMVAM3WyoXiXWtsBAWOic7tzdcHgNfqoqBhPbUhQdw)
 
 ## Small-Buntu
 ![Small-Buntu](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirnUZZiI1AlkbIRzdcGgBfXGiFo7r08p8Fcpbs0A2Go9Rx3RHavwubyM_-u-_hG5CFgs1ybAVUKyvHF-ixTNSE1JXfclIrJ5Aumgw5Xh-zzJ1ABkeQj55ZXi0oVAXMYCuPSCMN-6n4C6zGDprz8A0I_Yn-DQrR7r0vB1jF_VgC-BuhYMUjj7eOCd6sxDI/s320/Small-Buntu.png)
