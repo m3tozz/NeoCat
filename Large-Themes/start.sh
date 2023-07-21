@@ -18,7 +18,7 @@ echo -e '\033[0;36m
 \e[1;35m[30]\e[0;32mPony \e[1;34m[31]\e[0;32mAnimo \e[1;36m[32]\e[0;32mAmongUS \033[1;33m[33]\e[0;32mOrigami \e[1;35m[34]\e[0;32mPixar-Lamp
 \033[1;33m[35]\e[0;32mPentagram \e[1;35m[36]\e[0;32mSimpsons \e[1;34m[37]\e[0;32mArch-OLD \e[1;36m[38]\e[0;32mUbuntu-OLD
 \e[1;35m[39]\e[0;32mTux \e[1;34m[40]\e[0;32mHeisenberg \033[1;33m[41]\e[0;32mInspector-Gadget \e[1;34m[42]\e[0;32mSuperman
-\033[1;31m[x]Exit [00]Menu [D]Default-Theme
+\033[1;31m[x]Exit [D]Default-Theme
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
 }
@@ -743,6 +743,7 @@ sleep 1
         cd Superman/ && cp -r neofetch /home/$USER/.config
 clear   
 neofetch
+
 
 elif [[ $islem == D || $islem == d  ]]; then
         sleep 1
