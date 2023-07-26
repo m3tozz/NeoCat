@@ -279,4 +279,6 @@ Support | Bağış Yap
 <summary> What's the best nation in the world? </summary>
   Answer: Donation
 </details>
-<img src="https://user-images.githubusercontent.com/123886904/218294072-d474a330-7464-430a-b369-91f79373dbca.svg" width="100%" title="cat">
+
+--------------------------------------------------------------------------
+<p align="center">made by m3tozz
