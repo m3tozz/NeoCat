@@ -77,11 +77,17 @@ Themes
 ## Pikachu
 ![Pikachu](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzMp7ekPnEbQcXmmTIDKW_qiKnGHAxfofRPJNOQJMnmHUYQahn52NBtwHYhebqmsGNwphxwoBnCHnd1LThWvPNfwzn_RWrIOWDFvrqjQ3Nx44IWUCyS78n3YL4ibhC1wC8DQhBdOyQHFs6b5_x595MiY2HFs8Rn7QrdD4EVb1Qo-rwXMSfF9YsUkUwxaU/s320/Pikachu.png)
 
+## DeadPool
+![DeadPool](https://blogger.googleusercontent.com/img/a/AVvXsEg0WwubwYJ61LKApRmYKmaYL9RUDRpvqGht5buMVHBUI4iDkmSzk9Bmay9cB_1Uc_v4XIuBgfNSMFrczSpCx_KKsmlsZxy9Kv7zfucIbkbXCrKMLYi3vz2ctK4HHa30EnXpEUibSvRD6iP_rpaiQ8aqFV9HsZMaUSix3z-j1_NzFWcLsQe7I9iqRvSDaYI)
+
 ## Patrick
 ![Patrick](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy0N4NppOY8JgJ90obCPydHoJ5qzru8iAg6gyn6G0hwwhXWZGCaa_EE7iUj6CutQsGsx1hJz2s9iOpiqeP83bZWWwAiCgpM6i_LoIc4KsnxkqqzJ26NfVSUlHDT-Qsc-n1mRVVyppMnIWjxu4Wwuw55XOU2yV1g0-CV_vB2XFwYEX4ABYzVTfquKCqL04/s320/Patrick.png)
 
 ## One-Piece
 ![One-Piece](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAiVZ-_PnoxqGlN9jvZg-O1PQtAlQEtx9cZo_fyw_55n0q2KMF0vWFacRheuAYsuZAmTotANEjFOVfSa1iAYfJoNd7CpopX4P56K5dhp6zmeYx3ODnUPB3gQjopEAhGrGeu8kRkJWhBBlRlR8VialmZNJaBilV2UPIuiistK6L64Jcw2koud7xrHPTWUE/s320/One-Piece.png)
+
+## Red-Green
+![Red-Green](https://blogger.googleusercontent.com/img/a/AVvXsEi_t0QVnSodNYGdefvMcGM1Th8ayyG5oF4r13dof_c5MVe5i0UWSx1xwln7Ku4EAvLY1xmw3vuCr53EJozIIgpul96_wa0qOjNF_zZ08UjLkSai5qLJpgnNTElXcuabkEvfpPhooMigvBOTcQTpjXnefGddCkRPNZKRq0RFu7zgc3hxe8lc9mS1eEW754c)
 
 ## MetoCat
 ![MetoCat](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPS3KNKbxRYBbs5HnlnQzGBQ8wsQIT5U_ETmXg2R8J_ZZ7pQturpyBlSp4pdP7IQiy3VSc-iL15l2iHdlWe8UnAipKLAdgJI3aPq9_msGMjl7Aj6HRQ9bQWXJua1ISElHW4fGOxAJ48sVaFTZkHgOukkTF4iVa1YfwzoLWtyvGl7s7jALFP-FbnaGxLa0/s320/MetoCat.png)
@@ -101,6 +107,9 @@ Themes
 ## Garfield
 ![Garfield](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqc6--Jghd1uCb9pcibwpADAPpJccI_c5PSMx_zjNgz6aQNwxU0oUN9r5X_YZNoLPOBiWeukTPdBy_1HprZQskRwLz-PBJhXB9RtTrpo_nJl0P8XHMv2fbtZ9xKBb1tDtA7EhnNXTrCPyYk3jTpF-Gfwxe6gaDN6eeegv7msqyiWLjLmw0V3S8AQVb9YQ/s320/Garfield.png)
 
+## Venom
+![Venom](https://blogger.googleusercontent.com/img/a/AVvXsEhhzPNh6kW9DH-WKhQGlvGwFhJFTLHt0o4ilV1YpCQY2XmK5944DwkjmxVmFpqjePxHkqL14kgRBcNJ8JHzFla4imkTW3VJ__1LAukPF7Wu2qjvm5H4UU1yQdOc_rffERUIcu8vNhD5ZpGUpcBOvZRtKKYleOb1TAYjoQTLcUS8jCplZc_w4VBL47P5NMA)
+
 ## F
 ![F](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoxB9FbVjoFrL01AWM60vsZ-HA3TGB2GJw11o9E2YOoE4BEja_AwSxhUJZZbkdxsL_5iNeP9nFpX3j8Sj4ABfbwDXvKGeumYRdv1mPy8iTEj3t5h5Jb6b19l2BUD3s1HB8qh23gKZXhD3KyDOC6xi_DD8-SYy4CJP0REBUFZSPsMeoDToCEFCefhikC4U/s320/F.png)
 
@@ -116,6 +125,9 @@ Themes
 ## Cat
 ![Cat](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmrJHpstF0sIz0PfiDAc7YDah4kb7ZUkqrdhNwFIL0SnLX-BBy2PX1GGB3b5oYlW7coOoojiifi1tJZUXG8gwwWiC4Ca2KDZDpwqP0NTE1kLGv1hPOA28VhxOFdrYrrudjsFRxPzr18iTkMJosjxmWbGJ5p44KC6ogM8O0v8D_vS5-CgKHkfB5XlLcuzM/s320/Cat.png)
 
+## Suse-Icons
+![Suse-Icons](https://blogger.googleusercontent.com/img/a/AVvXsEiuhN1DSoAk6uwbWfZQZp0J6kEKKqhXrMyKFJ5VtkDXX4UhBwRQ6wfyvwNIKHz-b4jEEkvTHGRbUuN5XWatNHb2kvCQwkKdH_FOZkBMtRo9MYpgEcZqv3OTHP-q8z9fHCyaRkxbGgBLzr8xVBxa-MmTZhH7gOqdq-DkLMWn4EPKsg8h-JL-GQTVZ0PsaG0)
+
 ## Cake-Man
 ![Cake-Man](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNxwps46lrXYOlly3slUiVe4vmNtsgev85vP-cvQyn2P-sCcnnq2fVKC2e-7WhymEd7WksuIf9msrSH_NHRFwsM0I7EpF2RyyC_yy_-otvMqoaVoswoU9_1ZwKHo3vh3cGvZTvpeq9_4eID7ilmDkCJpjpHv_n02hijDHaKoBGLoXEQBiKfO_RX80xkGQ/s320/Cake-Man.png)
 
@@ -124,6 +136,9 @@ Themes
 
 ## BatMan
 ![BatMan](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLlZ5X3I08X_LSm-iYc-GITCXoLcF7h-ah3PEZGCvhzgbZI2KdKQV9p5PcFVnUmthmlRpDL8EztL9tG-OFk0tpO8u4aNis73DnTgLoSoD6zC76pNi7kTMuaXpnl5t4qnO_Htj2y3tRgofL-Lj0pV1AthAemgHTAstkiX2uZmgKZgEYXV81WW9IBtbQqM4/s320/BatMan.png)
+
+## Joker
+![Joker](https://blogger.googleusercontent.com/img/a/AVvXsEijZF9dR6RBcNHm9HzpQ-46BMi9xlEkldPHSATgNjqV2iD2UF6rcZBIZkWbV5lK_qv_H2lkoLHgmb8v3TMjz772JzMaITOKxcV9e9UdQ7tu7AffPT2w41ffEbG7enq25sVmE7ImzKrITF7nkVGq5xOrufN2fpJvWrOE-JrfReZzwMe76WT18SN0ZcmP5BU)
 
 ## Avengers
 ![Avengers](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMULUuDq-LRtRoFPJ7fFzWwSNkCO8yGCBN7sp4oUrkT4WqVVNyfTJxKPgTvzmTYm-BzzltMIVPYlhfdTorbsouHpr041GQ3KwlrdAN24O1lDNbmfY5j4tWJUtdBiRxjcDjBrPM654CNp9sUt013oaq56gkTk95ODSfjasP7h5XTEWo8mycE8Nea2vnnGQ/s320/Avengers.png)
@@ -181,8 +196,14 @@ Themes
 ## KittyCat
 ![KittyCat](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnFyW_X8skLt1Gmxm4Cb4Mm0CCCeAu0kGaKvBM26ZLjKgclljVHK6AFQN-es_rolw-d5Cm2IthN4hlNY_c5feJbpgg6TAxLGQmstlABDj4WFxJZhB4uHk6ZOnF7c7X6kKBpBirH40ngKkMoJAx0hpPBHcj3pWlvDDyPaPh0IHTKO-TO3obzsZZk0Rcb98/s320/kittycat-neocat.png)
 
+## UWU
+![UWU](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitx4s7X6Tc3cj0804rFmP7j4w5bjOLa3SZSPfG0aoIMVzQZZP038hUwwgTJEvJoYG3A4AcbrU9aZE9w3WGVBpd1d1MqIwY_o_StstEjbjiMOROxCu69LoTFfGh5ZnX5NSYwiw7e_KRFPcOD3-WsaES4ii3qdzMW9ILHEzkQ9FC0WIBWNffw2AyKH8fg0U/s320/uwu-neocat.png)
+
 ## Robo-Dog
 ![Robo-Dog](https://blogger.googleusercontent.com/img/a/AVvXsEhAMiERuP1MOyGoR4cbjDj6__5Gr0hhY8YeR5Vfqen9cRgf_8wKVGeH-3hFa9Ee4x7O3W-qkjeCJPBLCQlKSMkLA9BOrCKLODsq_nkFAFkZ1uFQqrWSen-tOxOaxDGDuebB0itYqGRAatwcSPjVE-DhXCuxb-iT5XgnxB6MdIiiy7zmGw5KsNoFtmot8Os)
+
+## MetoSpace
+![MetoSpace](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3hGsEYLnNkKNw60AYocAywxI9P4tChIVyQ2hVJE0385Y-ojao3xFBO66vnpr2lQ6f1jJO7NmxfgclDogUXU7i3HuMzFyHpKBbOoB70yQXJA4u7fnxzKkadbShzqLpI3oRDcFtmzqH1i1fqK5628mkONeo0z83xnMGjnGsHSvvPv5HyFuEABb2fabOiEw/s320/neocat-metospace.png)
 
 ## CockTail
 ![CockTail](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivIxYG5QK-UbWVjnVxZKdqlgOybzK4NHMIuV0ROSYM74zywcl0h03W1lkdVktObQDyn9Mh3VZsq8qXokoQgGu2OgKWKBaxID3JP89lVYzj5mk-Yz1sjM-I0iWVleAbcNhRQTAv76rx4_ZkAE8Y2tRpJ8Ge6Ix9rQVwxjTMVMCR0kuqnLoTCEKdCKwo3PI/s320/Cocktail.png)
