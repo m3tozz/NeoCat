@@ -18,6 +18,7 @@ echo -e '\033[0;36m
 \e[1;35m[30]\e[0;32mPony \e[1;34m[31]\e[0;32mAnimo \e[1;36m[32]\e[0;32mAmongUS \033[1;33m[33]\e[0;32mOrigami \e[1;35m[34]\e[0;32mPixar-Lamp
 \033[1;33m[35]\e[0;32mPentagram \e[1;35m[36]\e[0;32mSimpsons \e[1;34m[37]\e[0;32mArch-OLD \e[1;36m[38]\e[0;32mUbuntu-OLD
 \e[1;35m[39]\e[0;32mTux \e[1;34m[40]\e[0;32mHeisenberg \033[1;33m[41]\e[0;32mInspector-Gadget \e[1;34m[42]\e[0;32mSuperman
+\e[1;36m[43]\e[0;32mDeadPool \033[1;33m[44]\e[0;32mRed-Green \e[1;35m[45]\e[0;32mJoker \033[1;33m[46]\e[0;32mSuse-Icons \e[1;36m[47]\e[0;32mVenom
 \033[1;31m[x]Exit [D]Default-Theme
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
@@ -27,9 +28,9 @@ echo -e '\033[0;36m
 
 banner
 if [[ $islem == 1 || $islem == 01 ]]; then
-	sleep 1
-	clear
-		echo -e '\033[0m 
+        sleep 1
+        clear
+                echo -e '\033[0m 
   _   _             _____      _   
  | \ | |           / ____|    | |  
  |  \| | ___  ___ | |     __ _| |_ 
@@ -40,14 +41,14 @@ if [[ $islem == 1 || $islem == 01 ]]; then
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Avengers/ && cp -r neofetch /home/$USER/.config
-clear	
+clear   
 
 neofetch
 
 elif [[ $islem == 2 || $islem == 02 ]]; then
-	sleep 1
-	clear
-		echo -e '\033[0m 
+        sleep 1
+        clear
+                echo -e '\033[0m 
   _   _             _____      _   
  | \ | |           / ____|    | |  
  |  \| | ___  ___ | |     __ _| |_ 
@@ -58,14 +59,14 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Cake-Man/ && cp -r neofetch /home/$USER/.config
-clear	
+clear   
 
 neofetch
  
 elif [[ $islem == 3 || $islem == 03 ]]; then
-	sleep 1
-	clear
-		echo -e '\033[0m 
+        sleep 1
+        clear
+                echo -e '\033[0m 
   _   _             _____      _   
  | \ | |           / ____|    | |  
  |  \| | ___  ___ | |     __ _| |_ 
@@ -744,6 +745,124 @@ sleep 1
 clear   
 neofetch
 
+elif [[ $islem == 41  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Inspector-Gadget
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Inspector-Gadget/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 42  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Superman
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Superman/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 43  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|DeadPool
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd DeadPool/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 44  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Red-Green
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Red-Green/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 45  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Joker
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Joker/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 46  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Suse-Icons
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Suse-Icons/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 47  ]]; then
+        sleep 1
+        clear
+                echo -e '\033[0m 
+  _   _             _____      _   
+ | \ | |           / ____|    | |  
+ |  \| | ___  ___ | |     __ _| |_ 
+ | . ` |/ _ \/ _ \| |    / _` | __|Venom
+ | |\  |  __/ (_) | |___| (_| | |_ 
+ |_| \_|\___|\___/ \_____\__,_|\__|                                      
+'
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Venom/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
 
 elif [[ $islem == D || $islem == d  ]]; then
         sleep 1
@@ -763,9 +882,9 @@ clear
 neofetch
 
 elif [[ $islem == x || $islem == X ]]; then
-	clear
+        clear
 echo -e "\033[1;31m GoodBye\033[0m"
-	exit 1
+        exit 1
 else
-	echo -e '\033[36;40;1m Wrong transaction number!'	
+        echo -e '\033[36;40;1m Wrong transaction number!'       
 fi
