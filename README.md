@@ -9,12 +9,7 @@ NeoCat contains its own neofetch configurations and uploads the selected configu
 
 --------------------------------------------------------------------------
 
-<a href="https://www.instagram.com/metinzuhree/"><img src="https://img.shields.io/badge/metinzuhree-grey?&logo=instagram" alt="r10" hspace="10"  align="right" /></a>Install (Automatic)
---
-```bash
-git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && sudo make install
-```
-Install (Manual)
+<a href="https://www.instagram.com/metinzuhree/"><img src="https://img.shields.io/badge/metinzuhree-grey?&logo=instagram" alt="r10" hspace="10"  align="right" /></a>Install & Run
 --
 ```bash
 git clone https://github.com/m3tozz/NeoCat.git 
@@ -23,25 +18,10 @@ git clone https://github.com/m3tozz/NeoCat.git
 cd NeoCat 
 ```
 ```bash
-sudo make install
+sudo bash setup.sh -i
 ```
-Run (Without Install)
---
 ```bash
-bash ./neocat.sh
-```
-Install Terminal Icons (icons-in-terminal)
---
-
-```bash
-bash ./install-icons.sh
-```
-
-Back Up Your Own NeoFetch Configuration
---
-
-```bash
-bash ./backup.sh
+neocat <-l|--large|-s|--small> <THEME_NAME>
 ```
 --------------------------------------------------------------------------
 Themes
