@@ -79,7 +79,7 @@ shellmenu2() {
 			NEOCAT_THEME_DIR="$WORKDIR/themes/large/${largethemes[$(( 10#$input - 1 ))]}"
 			[[ -e "$NEOCAT_THEME_DIR/ascii.txt" ]] && NEOCAT_ASCII="true"
 			[[ -e "$NEOCAT_THEME_DIR/config.conf" ]] && NEOCAT_CONFIG="true"
-			echo "neofetch ${NEOCAT_CONFIG:+--config $NEOCAT_THEME_DIR/config.conf} ${NEOCAT_ASCII:+--ascii $NEOCAT_THEME_DIR/ascii.txt}"
+			neofetch ${NEOCAT_CONFIG:+--config $NEOCAT_THEME_DIR/config.conf} ${NEOCAT_ASCII:+--ascii $NEOCAT_THEME_DIR/ascii.txt}
 		;;
 		small)
 			for a in $(seq -w 1 ${#smallthemes[@]}); do
