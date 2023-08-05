@@ -1,6 +1,18 @@
 # Made By M3TOZZ
+loader ()
+{
+    bar="--------------------------------------------------------"
+    barlength=${#bar}
+    i=0
+    while ((i < 100)); do
+        n=$((i*barlength / 100))
+        printf "\e[00;32m\r[%-${barlength}s]\e[00m" "${bar:0:n}"
+        ((i += RANDOM%5+2))
+        sleep 0.02
+    done
+    echo -e "[✓]"
+}
 clear
-
 banner(){
 echo -e '\033[0;36m
 \033[0;31m  _   _             _____      _   
@@ -16,7 +28,7 @@ echo -e '\033[0;36m
 \e[1;36m[20]\e[0;32mSheriff \e[1;34m[21]\e[0;32mGiraffe \033[1;33m[22]\e[0;32mDog \e[1;35m[23]\e[0;32mKittyCat \e[1;34m[24]\e[0;32m8-Bit
 \e[1;35m[25]\e[0;32mRobo-Dog \033[1;33m[26]\e[0;32mArchtozz \e[1;34m[27]\e[0;32mDebiatozz \e[1;36m[28]\e[0;32mFedortozz
 \033[1;33m[29]\e[0;32mUWU \e[1;36m[30]\e[0;32mMetoSpace
-\033[1;31m[x]Exit [00]Menu [D]Default-Theme
+\033[1;31m[x]Exit [D]Default-Theme
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
 }
@@ -27,14 +39,7 @@ banner
 if [[ $islem == 1 || $islem == 01 ]]; then
 	sleep 1
 	clear
-		echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Loki-Ranger
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                       
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Loki-Ranger/ && cp -r neofetch /home/$USER/.config
@@ -45,14 +50,7 @@ neofetch
 elif [[ $islem == 2 || $islem == 02 ]]; then
 	sleep 1
 	clear
-		echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Fast-Snail
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                       
-'
+	loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Fast-Snail/ && cp -r neofetch /home/$USER/.config
@@ -63,14 +61,7 @@ neofetch
 elif [[ $islem == 3 || $islem == 03 ]]; then
 	sleep 1
 	clear
-		echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|SpongeBob
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                       
-'
+	loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd SpongeBob/ && cp -r neofetch /home/$USER/.config
@@ -81,14 +72,7 @@ neofetch
 elif [[ $islem == 4 || $islem == 04 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Dino-Rex
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                       
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Dino-Rex/ && cp -r neofetch /home/$USER/.config
@@ -98,14 +82,7 @@ neofetch
 elif [[ $islem == 5 || $islem == 05 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Smile
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                       
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Smile/ && cp -r neofetch /home/$USER/.config
@@ -115,14 +92,7 @@ neofetch
 elif [[ $islem == 6 || $islem == 06 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Crocodile
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Crocodile/ && cp -r neofetch /home/$USER/.config
@@ -132,14 +102,7 @@ neofetch
 elif [[ $islem == 7 || $islem == 07 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|OWL
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd OWL/ && cp -r neofetch /home/$USER/.config
@@ -149,14 +112,7 @@ neofetch
 elif [[ $islem == 8 || $islem == 08 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|MotorCycle
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd MotorCycle/ && cp -r neofetch /home/$USER/.config
@@ -166,14 +122,7 @@ neofetch
 elif [[ $islem == 9 || $islem == 09 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Snake
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Snake/ && cp -r neofetch /home/$USER/.config
@@ -183,14 +132,7 @@ neofetch
 elif [[ $islem == 10 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Tux
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Tux/ && cp -r neofetch /home/$USER/.config
@@ -200,14 +142,7 @@ neofetch
 elif [[ $islem == 11 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Palm
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Palm/ && cp -r neofetch /home/$USER/.config
@@ -217,14 +152,7 @@ neofetch
 elif [[ $islem == 12 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Alien
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Alien/ && cp -r neofetch /home/$USER/.config
@@ -234,14 +162,7 @@ neofetch
 elif [[ $islem == 13 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Truck
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Truck/ && cp -r neofetch /home/$USER/.config
@@ -251,14 +172,7 @@ neofetch
 elif [[ $islem == 14 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Cocktail
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Cocktail/ && cp -r neofetch /home/$USER/.config
@@ -268,14 +182,7 @@ neofetch
 elif [[ $islem == 15 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Small-Buntu
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Small-Buntu/ && cp -r neofetch /home/$USER/.config
@@ -285,14 +192,7 @@ neofetch
 elif [[ $islem == 16 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Phone
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Phone/ && cp -r neofetch /home/$USER/.config
@@ -302,14 +202,7 @@ neofetch
 elif [[ $islem == 17 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Duck
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Duck/ && cp -r neofetch /home/$USER/.config
@@ -319,14 +212,7 @@ neofetch
 elif [[ $islem == 18 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Simba
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Simba/ && cp -r neofetch /home/$USER/.config
@@ -336,14 +222,7 @@ neofetch
 elif [[ $islem == 19 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Dinosaurs
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Dinosaurs/ && cp -r neofetch /home/$USER/.config
@@ -353,14 +232,7 @@ neofetch
 elif [[ $islem == 20 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Sheriff
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Sheriff/ && cp -r neofetch /home/$USER/.config
@@ -370,14 +242,7 @@ neofetch
 elif [[ $islem == 21 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Giraffe
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Giraffe/ && cp -r neofetch /home/$USER/.config
@@ -387,14 +252,7 @@ neofetch
 elif [[ $islem == 22 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Dog
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Dog/ && cp -r neofetch /home/$USER/.config
@@ -404,14 +262,7 @@ neofetch
 elif [[ $islem == 23 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|KittyCat
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd KittyCat/ && cp -r neofetch /home/$USER/.config
@@ -421,14 +272,7 @@ neofetch
 elif [[ $islem == 24 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|8-Bit
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd 8-Bit/ && cp -r neofetch /home/$USER/.config
@@ -438,14 +282,7 @@ neofetch
 elif [[ $islem == 25 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Robo-Dog
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Robo-Dog/ && cp -r neofetch /home/$USER/.config
@@ -455,14 +292,7 @@ neofetch
 elif [[ $islem == 26 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Archtozz
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Archtozz/ && cp -r neofetch /home/$USER/.config
@@ -472,14 +302,7 @@ neofetch
 elif [[ $islem == 27 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Debiatozz
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Debiatozz/ && cp -r neofetch /home/$USER/.config
@@ -488,14 +311,7 @@ neofetch
 elif [[ $islem == 28 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Fedortozz
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Fedortozz/ && cp -r neofetch /home/$USER/.config
@@ -505,14 +321,7 @@ neofetch
 elif [[ $islem == 29 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|UWU
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd UWU/ && cp -r neofetch /home/$USER/.config
@@ -522,14 +331,7 @@ neofetch
 elif [[ $islem == 30 ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|MetoSpace
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd MetoSpace/ && cp -r neofetch /home/$USER/.config
@@ -538,25 +340,13 @@ neofetch
 elif [[ $islem == D || $islem == d  ]]; then
         sleep 1
         clear
-                echo -e '\033[0m 
-  _   _             _____      _   
- | \ | |           / ____|    | |  
- |  \| | ___  ___ | |     __ _| |_ 
- | . ` |/ _ \/ _ \| |    / _` | __|Default-Theme
- | |\  |  __/ (_) | |___| (_| | |_ 
- |_| \_|\___|\___/ \_____\__,_|\__|                                      
-'
+        loader
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Default/ && cp -r neofetch /home/$USER/.config
 clear   
 neofetch
 
-
-elif [[ $islem == 0 || $islem == 00 ]]; then
-        sleep 1
-        cd ..
-        bash ./neocat.sh
 elif [[ $islem == x || $islem == X ]]; then
 	clear
 echo -e "\033[1;31m GoodBye\033[0m"
