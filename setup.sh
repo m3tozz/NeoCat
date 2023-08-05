@@ -6,11 +6,11 @@
 #################################################
 CURRDATE="$(date +%Y-%m-%d_%H-%M-%S)"
 ORIGIN_URL="m3tozz/neocat"
-VERSION="v1.1.0"
+VERSION="$(git tag | tail -n 1)"
 
 [[ "$(id -u)" != "0" ]] && echo "Please run this script with administrative privilleges..." && exit 1 
 
-. $PWD/colors.conf
+. $PWD/src/neocat/colors.conf
 
 banner(){
 echo -e "$FG_CYAN
