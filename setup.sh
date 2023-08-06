@@ -5,10 +5,8 @@
 ##
 #################################################
 CURRDATE="$(date +%Y-%m-%d_%H-%M-%S)"
-ORIGIN_URL="m3tozz/neocat"
+ORIGIN_PATH="m3tozz/neocat"
 VERSION="$(git tag | tail -n 1)"
-
-[[ "$(id -u)" != "0" ]] && echo "Please run this script with administrative privilleges..." && exit 1 
 
 . $PWD/src/neocat/colors.conf
 
@@ -41,6 +39,7 @@ banner
 
 installer() {
 	[[ ! -n $(command -v neofetch) ]] && echo "Neofetch package is not found..." && exit
+	[[ "$(id -u)" != "0" ]] && echo "Please run this script with administrative privilleges..." && exit 1 
 	[[ -e /usr/share/neocat/version ]] && echo "NeoCat $(cat /usr/share/neocat/version) is already installed..." && exit
 	echo "Installing NeoCat..."
 	cp -r $PWD/src/applications/neocat.desktop /usr/share/applications/
@@ -51,35 +50,40 @@ installer() {
 	echo $VERSION > /usr/share/neocat/version
 }
 
+remover() {
+	[[ ! -d /usr/share/neocat ]] && echo "NeoCat is not installed..." && exit
+	[[ "$(id -u)" != "0" ]] && echo "Please run this script with administrative privilleges..." && exit 1 
+	echo "Removing NeoCat..."
+	rm -rf /usr/share/applications/neocat.desktop /usr/share/icons/neocat.desktop /usr/share/neocat /usr/local/bin/neocat
+}
+
 updater() {
 	[[ ! -d /usr/share/neocat ]] && echo "NeoCat is not installed..." && exit
+	[[ "$(id -u)" != "0" ]] && echo "Please run this script with administrative privilleges..." && exit 1 
 	INSTALLED_VERSION="$(cat /usr/share/neocat/version)"
-	REMOTE_VERSION="$(curl -fsSL https://api.github.com/repos/$ORIGIN_URL/tags | sort -Vr | head -n 1)"
+	REMOTE_VERSION="$(curl -fsSL https://api.github.com/repos/$ORIGIN_PATH/tags | sort -Vr | head -n 1)"
 
 	IV="$(echo $INSTALLED_VERSION | tr -dc [:digit:])"
 	RV="$(echo $REMOTE_VERSION | tr -dc [:digit:])"
 
 	if [[ "$IV" == "$RV" ]]; then
-		echo "NeoCat is already installed..."
+		echo "NeoCat is up-to-date..."
 		exit
 	elif [[ "$RV" > "$IV" ]]; then
 		echo "NeoCat update is available: $REMOTE_VERSION"
-		exit
-	elif [[ "$RV" < "$IV" ]]; then
-		echo "NeoCat downgrade required..."
-		exit
+		[[ "$(git remote)" != "origin" ]] && exit
+		git pull
+		remover
+		installer
 	fi
 }
 
-remover() {
-	[[ ! -d /usr/share/neocat ]] && echo "NeoCat is not installed..." && exit
-	echo "Removing NeoCat..."
-	rm -rf /usr/share/applications/neocat.desktop /usr/share/icons/neocat.desktop /usr/share/neocat /usr/local/bin/neocat
-}
-
-case $@ in
+case $1 in
 	-i|--install)
 		installer
+	;;
+	-p|--portable)
+		WORKDIR="$PWD/src/neocat" bash $PWD/src/neocat/neocat.sh ${@:2}
 	;;
 	-u|--update)
 		updater
@@ -89,8 +93,9 @@ case $@ in
 	;;
 	*)
 		echo "Unknown parameter"
-		echo -e "-i|--install: Install NeoCat"
-		echo -e "-u|--update : Update NeoCat "
-		echo -e "-r|--remove : Remove NeoCat "
+		echo -e "-i|--install  : Install NeoCat"
+		echo -e "-p|--portable : Run NeoCat shell portable"
+		echo -e "-u|--update   : Update NeoCat "
+		echo -e "-r|--remove   : Remove NeoCat "
 	;;
 esac
