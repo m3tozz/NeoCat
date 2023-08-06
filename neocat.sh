@@ -1,6 +1,52 @@
-# Made By M3TOZZ
-# https://github.com/m3tozz/NeoCat.git
+########################################
+# Made By M3TOZZ                       #
+# https://m3tozz.github.io             #
+########################################
+# https://github.com/m3tozz/NeoCat.git #
+# https://m3tozz.github.io/NeoCat      #
+########################################
 
+# Define Constants.
+export APP="NeoCat" 		# Project Name
+export CWD="${PWD}"			# Current Work Directory
+export BASENAME="${0##*/}"	# Base Name of This Script
+
+
+# Functions.
+help() {
+	echo -e "Wrong usage, there is 3 arguments for ${BASENAME}\n
+\t${BASENAME} --install: it's install's the ${APP} Project on your distrubution.
+\t${BASENAME} --uninstall: it's uninstall's the ${APP} Project on your distrubution.
+\t${BASENAME} --shell: run the ${APP} project without installing it in your distribution.
+\t${BASENAME} --help: show this page.
+"
+
+}
+
+neocat:install() {
+sudo make install
+clear
+echo -e "\033[1;31m ${APP} has been uploaded to your distribution!\033[0m"
+exit
+}
+
+neocat:uninstall() {
+sudo make uninstall
+clear
+echo -e "\033[1;31m ${APP} has been removed to your distribution!\033[0m"
+exit
+}
+
+help() {
+	echo -e "	 
+--install: it's install's the ${APP} Project on your distrubution.
+--uninstall: it's uninstall's the ${APP} Project on your distrubution.
+--shell: run the ${APP} project without installing it in your distribution.
+--help: show this page."
+}
+
+
+shell(){
 if ! command -v neofetch
 then
     	clear
@@ -74,4 +120,20 @@ echo -e "\033[0m GoodBye."
 else
 	echo -e '\033[36;40;1m Wrong transaction number!'	
 fi
-# metinzuhre
+}
+
+# Argument Parser.
+case "${1,,}" in
+	"--install"|"-i")
+		neocat:install
+	;;
+	"--uninstall"|"-u")
+		neocat:uninstall
+	;;
+	"--shell"|"-s")
+		shell
+	;;
+	*)
+		help
+	;;
+esac
