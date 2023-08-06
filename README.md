@@ -21,8 +21,14 @@ cd NeoCat
 sudo bash setup.sh -i
 ```
 ```bash
-neocat <-l|--large|-s|--small> <THEME_NAME>
+neocat -s
 ```
+
+## Run without install
+```
+bash setup.sh <-p|--portable> <-i|-l|-s|-v|-h>
+```
+
 --------------------------------------------------------------------------
 Themes
 --

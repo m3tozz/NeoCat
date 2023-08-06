@@ -4,7 +4,7 @@
 ##
 ####################### ( github.com/m3tozz ) ###
 CURRDATE="$(date +%Y-%m-%d_%H-%M-%S)"
-WORKDIR="/usr/share/neocat"
+[[ ! -n $WORKDIR ]] && WORKDIR="/usr/share/neocat" 
 largethemes=($(ls $WORKDIR/themes/large))
 smallthemes=($(ls $WORKDIR/themes/small))
 
@@ -144,7 +144,7 @@ case $1 in
 	;;
 	-v|--version)
 		banner
-		[[ -e $WORKDIR/version ]] && echo "Version: $(cat $WORKDIR/version)" || echo "version: $(git tag | tail -n 1)"
+		[[ -e $WORKDIR/version ]] && echo "Version: $(cat $WORKDIR/version)" || echo "Version: $(git tag | tail -n 1)"
 	;;
 	*)
 		neohelp
