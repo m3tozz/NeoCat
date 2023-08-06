@@ -24,7 +24,7 @@ sudo bash setup.sh -i
 neocat -s
 ```
 
-### Run without install
+## Run without install
 ```
 bash setup.sh <-p|--portable> <-i|-l|-s|-v|-h>
 ```
