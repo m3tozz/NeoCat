@@ -93,9 +93,9 @@ case $1 in
 	;;
 	*)
 		echo "Unknown parameter"
-		echo -e "-i|--install  : Install NeoCat"
-		echo -e "-p|--portable : Run NeoCat shell portable"
-		echo -e "-u|--update   : Update NeoCat "
-		echo -e "-r|--remove   : Remove NeoCat "
+		echo -e "-i|--install         : Install NeoCat"
+		echo -e "-p|--portable <args> : Run portable NeoCat shell"
+		echo -e "-u|--update          : Update NeoCat "
+		echo -e "-r|--remove          : Remove NeoCat "
 	;;
 esac
