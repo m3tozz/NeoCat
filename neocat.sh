@@ -18,9 +18,14 @@ help() {
 \t${BASENAME} --install: it's install's the ${APP} Project on your distrubution.
 \t${BASENAME} --uninstall: it's uninstall's the ${APP} Project on your distrubution.
 \t${BASENAME} --shell: run the ${APP} project without installing it in your distribution.
+\t${BASENAME} --backup: back up your own neofetch configuration.
 \t${BASENAME} --help: show this page.
 "
 
+}
+
+neocat:backup() {
+bash ./backup.sh
 }
 
 neocat:install() {
@@ -42,6 +47,7 @@ help() {
 --install: it's install's the ${APP} Project on your distrubution.
 --uninstall: it's uninstall's the ${APP} Project on your distrubution.
 --shell: run the ${APP} project without installing it in your distribution.
+--backup: back up your own neofetch configuration.
 --help: show this page."
 }
 
@@ -132,6 +138,9 @@ case "${1,,}" in
 	;;
 	"--shell"|"-s")
 		shell
+	;;
+	"--backup"|"-b")
+		neocat:backup
 	;;
 	*)
 		help
