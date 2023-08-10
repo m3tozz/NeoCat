@@ -8,6 +8,15 @@
 
 # NeoCat Version
     version='NeoCat- 1.2.7'
+
+#Colors
+    red='\e[1;31m'
+    yellow='\e[1;33m'
+    blue='\e[1;34m'
+    tp='\e[0m'
+    green='\e[0;32m'
+    bgreen='\033[1;32m'
+
 # Define Constants.
 export APP="NeoCat" 		# Project Name
 export CWD="${PWD}"			# Current Work Directory
@@ -109,7 +118,7 @@ echo -e '\033[1;36m
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                       
 '
 echo -e '
-\e[1;34m[01]\e[0;32mSmall Themes \e[1;35m[02]\e[0;32mLarge Themes\e[1;34m \e[1;31m[x]\e[0;32mExit
+\e[1;34m[01]\e[0;32mSmall Themes \e[1;35m[02]\e[0;32mLarge Themes\e[1;34m \033[1;33m[A]\e[0;32mAbout \e[1;31m[x]\e[0;32mExit
 '
         echo -ne "\e[1;31mm3tozz\033[0;36m@\033[1;33mneocat\n\e \033[0;36m↳\033[0m " ; read islem
 }
@@ -129,7 +138,22 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
  
 elif [[ $islem == x || $islem == X ]]; then
 	clear
-echo -e "\033[0m GoodBye."
+
+elif [[ $islem == a || $islem == A ]]; then
+	clear
+echo -e '
+    _   _             ____      _   
+   | \ | | ___  ___  / ___|__ _| |_ 
+   |  \| |/ _ \/ _ \| |   / _` | __|NeoFetch Theme Pack
+   | |\  |  __/ (_) | |__| (_| | |_ 
+   |_| \_|\___|\___/ \____\__,_|\__|                                  
+'
+    echo -e "$blue##########################################################$tp"
+    echo -e "    Create by           ":" $red M3TOZZ$tp"
+    echo -e "    Github              ":" $red https://github.com/m3tozz$tp"
+    echo -e "    Instagram           ":" $red @metinzuhree$tp"
+    echo -e "    Version             ":" $red ${version} $tp"
+    echo -e "$blue##########################################################$tp"
 	exit 1
 else
 	echo -e '\033[36;40;1m Wrong transaction number!'	
