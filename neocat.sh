@@ -86,11 +86,8 @@ Installing Neofetch in Arch Linux is easy as well
 → sudo pacman -S neofetch
 \033[1;35m
 You can install Neofetch on RHEL-based distributions using DNF
-→ sudo dnf install neofetch
-
-\033[1;91mPress CTRL+C To Exit
-    	\033[0m"
-    	sleep 99999
+→ sudo dnf install neofetch"
+exit 1
 fi
 clear
 banner(){
