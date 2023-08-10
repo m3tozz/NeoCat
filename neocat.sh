@@ -6,6 +6,8 @@
 # https://m3tozz.github.io/NeoCat      #
 ########################################
 
+# NeoCat Version
+    version='NeoCat- 1.2.7'
 # Define Constants.
 export APP="NeoCat" 		# Project Name
 export CWD="${PWD}"			# Current Work Directory
@@ -19,9 +21,14 @@ help() {
 \t${BASENAME} --uninstall: it's uninstall's the ${APP} Project on your distrubution.
 \t${BASENAME} --shell: run the ${APP} project without installing it in your distribution.
 \t${BASENAME} --backup: back up your own neofetch configuration.
+\t${BASENAME} --version: the version shows.
 \t${BASENAME} --help: show this page.
 "
 
+}
+
+neocat:version() {
+echo "$version"
 }
 
 neocat:backup() {
@@ -48,6 +55,7 @@ help() {
 --uninstall: it's uninstall's the ${APP} Project on your distrubution.
 --shell: run the ${APP} project without installing it in your distribution.
 --backup: back up your own neofetch configuration.
+--version: the version shows.
 --help: show this page."
 }
 
@@ -87,7 +95,7 @@ echo -e '\033[1;36m
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀    \033[0;31m    _   _             _____      _ 1.2.7  \033[1;36m 
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀    \033[0;31m    _   _             _____      _  \033[1;36m 
 ⣿⣿⣿⡇⠀⡾⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀    \033[0;31m   | \ | |           / ____|    | | \033[1;36m 
 ⣿⣿⣿⣧⡀⠁⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀    \033[0;31m   |  \| | ___  ___ | |     __ _| |_ \033[1;36m
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠉⢹⠉⠙⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀    \033[0;31m   | . ` |/ _ \/ _ \| |    / _` | __|\033[1;36m
@@ -141,6 +149,9 @@ case "${1,,}" in
 	;;
 	"--backup"|"-b")
 		neocat:backup
+	;;
+	"--version"|"-v")
+		neocat:version
 	;;
 	*)
 		help
