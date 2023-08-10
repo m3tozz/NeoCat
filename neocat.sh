@@ -17,11 +17,11 @@ export BASENAME="${0##*/}"	# Base Name of This Script
 # Functions.
 help() {
 	echo -e "Wrong usage, there is 3 arguments for ${BASENAME}\n
-\t${BASENAME} --install: it's install's the ${APP} Project on your distrubution.
-\t${BASENAME} --uninstall: it's uninstall's the ${APP} Project on your distrubution.
+\t${BASENAME} --install: it's install's the ${APP} project on your distrubution.
+\t${BASENAME} --uninstall: it's uninstall's the ${APP} project on your distrubution.
 \t${BASENAME} --shell: run the ${APP} project without installing it in your distribution.
 \t${BASENAME} --backup: back up your own neofetch configuration.
-\t${BASENAME} --version: the version shows.
+\t${BASENAME} --version: show the version.
 \t${BASENAME} --help: show this page.
 "
 
@@ -51,11 +51,11 @@ exit
 
 help() {
 	echo -e "	 
---install: it's install's the ${APP} Project on your distrubution.
---uninstall: it's uninstall's the ${APP} Project on your distrubution.
+--install: it's install's the ${APP} project on your distrubution.
+--uninstall: it's uninstall's the ${APP} project on your distrubution.
 --shell: run the ${APP} project without installing it in your distribution.
 --backup: back up your own neofetch configuration.
---version: the version shows.
+--version: show the version.
 --help: show this page."
 }
 
