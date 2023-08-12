@@ -41,7 +41,7 @@ Back Up Your Own NeoFetch Configuration
 --
 
 ```bash
-bash ./backup.sh
+bash ./neocat.sh --backup
 ```
 --------------------------------------------------------------------------
 Themes
