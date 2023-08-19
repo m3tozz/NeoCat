@@ -1,16 +1,20 @@
 # Made By M3TOZZ
 loader ()
 {
-    bar="--------------------------------------------------------"
-    barlength=${#bar}
-    i=0
-    while ((i < 100)); do
-        n=$((i*barlength / 100))
-        printf "\e[00;32m\r[%-${barlength}s]\e[00m" "${bar:0:n}"
-        ((i += RANDOM%5+2))
-        sleep 0.02
-    done
-    echo -e "[✓]"
+printf "\033[0m
+NeoCat - NeoFetch Theme Pack!
+[#####               ] 25%% completed.\r"
+sleep 0.3
+clear
+printf "
+NeoCat - NeoFetch Theme Pack!
+[###############     ] 75%% completed.\r"
+sleep 0.2
+clear
+printf "
+NeoCat - NeoFetch Theme Pack!
+[####################] 100%% completed.\r"
+sleep 0.2
 }
 
 clear
