@@ -3,17 +3,17 @@ loader ()
 {
 printf "\033[0m
 NeoCat - NeoFetch Theme Pack!
-[#####               ] 25%% completed.\r"
+[#####               ] 25% completed.\r"
 sleep 0.3
 clear
 printf "
 NeoCat - NeoFetch Theme Pack!
-[###############     ] 75%% completed.\r"
+[###############     ] 75% completed.\r"
 sleep 0.2
 clear
 printf "
 NeoCat - NeoFetch Theme Pack!
-[####################] 100%% completed.\r"
+[####################] 100% completed.\r"
 sleep 0.2
 }
 
