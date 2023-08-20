@@ -7,7 +7,7 @@
 ########################################
 
 # NeoCat Version
-    version='NeoCat- 1.2.7'
+    version='NeoCat- 1.2.8'
 
 #Colors
     red='\e[1;31m'
