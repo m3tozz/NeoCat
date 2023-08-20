@@ -36,6 +36,7 @@ echo -e '\033[0;36m
 \033[1;33m[35]\e[0;32mPentagram \e[1;35m[36]\e[0;32mSimpsons \e[1;34m[37]\e[0;32mArch-OLD \e[1;36m[38]\e[0;32mUbuntu-OLD
 \e[1;35m[39]\e[0;32mTux \e[1;34m[40]\e[0;32mHeisenberg \033[1;33m[41]\e[0;32mInspector-Gadget \e[1;34m[42]\e[0;32mSuperman
 \e[1;36m[43]\e[0;32mDeadPool \033[1;33m[44]\e[0;32mRed-Green \e[1;35m[45]\e[0;32mJoker \033[1;33m[46]\e[0;32mSuse-Icons \e[1;36m[47]\e[0;32mVenom
+\e[1;34m[48]\e[0;32mAzur \e[1;35m[49]\e[0;32mBill-Cipher \e[1;36m[50]\e[0;32mDipper \033[1;33m[51]\e[0;32mSaturn
 \033[1;31m[x]Exit [D]Default-Theme
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
@@ -534,6 +535,46 @@ elif [[ $islem == 47  ]]; then
 rm -r /home/$USER/.config/neofetch
 sleep 1
         cd Venom/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 48  ]]; then
+        sleep 1
+        clear
+        loader
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Azur/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 49  ]]; then
+        sleep 1
+        clear
+        loader
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Bill-Cipher/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 50  ]]; then
+        sleep 1
+        clear
+        loader
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Dipper/ && cp -r neofetch /home/$USER/.config
+clear   
+neofetch
+
+elif [[ $islem == 51  ]]; then
+        sleep 1
+        clear
+        loader
+rm -r /home/$USER/.config/neofetch
+sleep 1
+        cd Saturn/ && cp -r neofetch /home/$USER/.config
 clear   
 neofetch
 
