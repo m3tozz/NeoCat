@@ -68,7 +68,7 @@ echo -e '\033[1;36m
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                       
 '
 echo -e '
-\e[1;34m[01]\e[0;32mSmall Themes \e[1;35m[02]\e[0;32mLarge Themes\e[1;34m \e[1;31m[A]\e[0;32mAbout \e[1;31m[x]\e[0;32mExit
+\e[1;34m[01]\e[0;32mSmall Themes \e[1;35m[02]\e[0;32mLarge Themes\e[1;34m \e[1;31m[A]\e[0;32mAbout \e[1;31m[B]\e[0;32mBackup \e[1;31m[x]\e[0;32mExit
 '
         echo -ne "\e[1;31mm3tozz\033[0;36m@\033[1;33mneocat\n\e \033[0;36m↳\033[0m " ; read islem
 }
@@ -103,6 +103,18 @@ echo -e '
     echo -e "$blue##########################################################$tp"
     echo -e "$red ${blink}                Press CTRL+C To Exit $tp"
 	sleep 99999
+elif [[ $islem == b || $islem == B ]]; then
+    clear
+    echo -e "\033[0;31mBacking Up...\033[1;36m"
+    mkdir -p Backup-$(date +%Y-%m-%d-%H:%M:%S)  
+    cp -r /home/$USER/.config/neofetch Backup-$(date +%Y-%m-%d-%H:%M:%S)
+    cd Backup-$(date +%Y-%m-%d-%H:%M:%S)
+    clear
+    echo -e "\033[31m Backed Up!\033[0m"
+    pwd
+    cd ..
+    exit
+
 elif [[ $islem == x || $islem == X ]]; then
 	clear
 echo -e "\033[0m GoodBye."
