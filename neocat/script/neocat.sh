@@ -106,6 +106,9 @@ echo -e '
 elif [[ $islem == b || $islem == B ]]; then
     clear
     echo -e "\033[0;31mBacking Up...\033[1;36m"
+    cd
+    mkdir NeoCat-Backup
+    cd NeoCat-Backup
     mkdir -p Backup-$(date +%Y-%m-%d-%H:%M:%S)  
     cp -r /home/$USER/.config/neofetch Backup-$(date +%Y-%m-%d-%H:%M:%S)
     cd Backup-$(date +%Y-%m-%d-%H:%M:%S)
@@ -113,8 +116,8 @@ elif [[ $islem == b || $islem == B ]]; then
     echo -e "\033[31m Backed Up!\033[0m"
     pwd
     cd ..
-    exit
-
+    echo -e "$red ${blink}                Press CTRL+C To Exit $tp"
+    sleep 99999
 elif [[ $islem == x || $islem == X ]]; then
 	clear
 echo -e "\033[0m GoodBye."
