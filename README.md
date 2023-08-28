@@ -53,6 +53,7 @@ Themes
 <br>
 <p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/007ac431-538b-47df-bcb6-7721667257f3">
 <a href="https://discord.gg/sQwYCZer95"><img src="https://img.shields.io/badge/Join The NeoCat's Community Discord Server-grey?&logo=discord" alt="r10" hspace="10"  align="center" /></a>
+<a href="https://matrix.to/#/#neocat-channels:matrix.org"><img src="https://img.shields.io/badge/Join The NeoCat's Community Matrix Server-grey?&logo=element" alt="r10" hspace="10"  align="center" /></a>
 
 --------------------------------------------------------------------------
   
