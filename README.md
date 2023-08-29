@@ -38,9 +38,9 @@ bash ./install-icons.sh
 ```
 <details>
 <summary>Download The Required Icon Pack (For Arch Linux)</summary>
-  ```bash
-git clone https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git && cd ttf-meslo-nerd-font-powerlevel10k && makepkg -si && cd ..
-```
+
+<code> git clone https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git && cd ttf-meslo-nerd-font-powerlevel10k && makepkg -si && cd .. </code>
+
 </details>
 
 Back Up Your Own NeoFetch Configuration
