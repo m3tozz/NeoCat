@@ -36,8 +36,8 @@ Install Terminal Icons (icons-in-terminal)
 ```bash
 bash ./install-icons.sh
 ```
-<summary>Download The Required Icon Pack (For Arch Linux)</summary>
 <details>
+<summary>Download The Required Icon Pack (For Arch Linux)</summary>
   ```bash
 git clone https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git && cd ttf-meslo-nerd-font-powerlevel10k && makepkg -si && cd ..
 ```
