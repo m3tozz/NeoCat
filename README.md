@@ -75,4 +75,4 @@ Support | Bağış Yap
 </details>
 
 --------------------------------------------------------------------------
-<p align="center">made by m3tozz
+<p align="center"> <a href="https://m3tozz.github.io/">made by m3tozz</a></p>
