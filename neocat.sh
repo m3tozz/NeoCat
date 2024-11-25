@@ -153,7 +153,7 @@ echo -e '
     echo -e "$blue##########################################################$tp"
 	exit 1
 else
-	echo -e '\033[36;40;1m Wrong transaction number!'	
+	echo -e '\e[1;34m Wrong transaction number!\033[0m'
 fi
 }
 
