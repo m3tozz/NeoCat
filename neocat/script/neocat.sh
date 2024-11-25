@@ -98,7 +98,7 @@ echo -e '
     echo -e "$blue##########################################################$tp"
     echo -e "    Create by           ":" $red M3TOZZ$tp"
     echo -e "    Github              ":" $red https://github.com/m3tozz$tp"
-    echo -e "    Instagram           ":" $red @metinzuhree$tp"
+    echo -e "    Instagram           ":" $red @textzuhree$tp"
     echo -e "    Version             ":" $red ${version} $tp"
     echo -e "$blue##########################################################$tp"
     echo -e "$red ${blink}                Press CTRL+C To Exit $tp"
