@@ -135,8 +135,8 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
  elif [[ $islem == c || $islem == C ]]; then
 	clear
 	echo -e '\033[0;33mTo add your own neofetch configuration to the NeoCat community,'
-	echo -e '\033[0;31mYou can add your own configuration'
-	echo -e 'and submit a Pull Request at https://github.com/m3tozz/neocat-community-themes.\e[0m'
+	echo -e '\033[0;31mAdd your own configuration at https://github.com/m3tozz/neocat-community-themes'
+	echo -e 'and submit a Pull Request..\e[0m'
 	echo -e "\e[3m\e[1;34mThis folder is currently empty\e[0m"
 elif [[ $islem == x || $islem == X ]]; then
 	clear
