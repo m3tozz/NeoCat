@@ -54,7 +54,7 @@ Themes
 --
 <a href="https://m3tozz.github.io/NeoCat-Themes/">https://m3tozz.github.io/NeoCat-Themes/</a>
 <details>
-<summary> How can I add my own neofetch config to the neocat community? </summary>
+<summary> How can I add my own neofetch config to the NeoCat community? </summary>
   Add your own configuration at 
 <a href="https://github.com/m3tozz/neocat-community-themes">https://github.com/m3tozz/neocat-community-themes</a>
 and submit a Pull Request :)
