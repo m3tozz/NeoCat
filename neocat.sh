@@ -115,7 +115,7 @@ echo -e '\033[1;36m
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                       
 '
 echo -e '
-\e[1;34m[01]\e[0;32mSmall Themes \e[1;35m[02]\e[0;32mLarge Themes\e[1;34m \e[1;31m[A]\e[0;32mAbout \e[1;31m[x]\e[0;32mExit
+\e[1;34m[01]\e[0;32mSmall Themes \e[1;35m[02]\e[0;32mLarge Themes\e[1;34m \033[0;33m[C]\e[0;32mCommunity-Themes \e[1;31m[A]\e[0;32mAbout \e[1;31m[x]\e[0;32mExit
 '
         echo -ne "\e[1;31mm3tozz\033[0;36m@\033[1;33mneocat\n\e \033[0;36m↳\033[0m " ; read islem
 }
@@ -132,7 +132,12 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
 	clear
 	cd Large-Themes/
 	bash start.sh
- 
+ elif [[ $islem == c || $islem == C ]]; then
+	clear
+	echo -e '\033[0;33mTo add your own neofetch configuration to the NeoCat community,'
+	echo -e '\033[0;31mYou can add your own configuration'
+	echo -e 'and submit a Pull Request at https://github.com/m3tozz/neocat-community-themes.\e[0m'
+	echo -e "\e[3m\e[1;34mThis folder is currently empty\e[0m"
 elif [[ $islem == x || $islem == X ]]; then
 	clear
 
