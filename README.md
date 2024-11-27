@@ -60,7 +60,13 @@ Themes
 <p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/007ac431-538b-47df-bcb6-7721667257f3">
 <a href="https://discord.gg/sQwYCZer95"><img src="https://img.shields.io/badge/Join The NeoCat's Community Discord Server-grey?&logo=discord" alt="r10" hspace="10"  align="center" /></a>
 <a href="https://matrix.to/#/#neocat-channels:matrix.org"><img src="https://img.shields.io/badge/Join The NeoCat's Community Matrix Server-grey?&logo=matrix" alt="r10" hspace="10"  align="center" /></a>
+<details>
+<summary> How can I add my own neofetch config to the neocat community </summary>
+  Answer: Add your own configuration at 
+<a href="https://github.com/m3tozz/neocat-community-themes">https://github.com/m3tozz/neocat-community-themes</a>
+and submit a Pull Request :)
 
+</details>
 --------------------------------------------------------------------------
   
 <p align="center"><a href="https://www.pling.com/p/2034925/" target="_blank"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="44%">
