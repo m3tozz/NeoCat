@@ -92,6 +92,8 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
     echo -e '\033[0;31mAdd your own configuration at https://github.com/m3tozz/neocat-community-themes'
     echo -e 'and submit a Pull Request..\e[0m'
     echo -e "\e[3m\e[1;34mThis folder is currently empty\e[0m"
+    echo -e "$red ${blink}                Press CTRL+C To Exit $tp"
+	sleep 99999
  elif [[ $islem == a || $islem == A ]]; then
 	clear
 echo -e '
