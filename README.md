@@ -65,8 +65,8 @@ Themes
   Answer: Add your own configuration at 
 <a href="https://github.com/m3tozz/neocat-community-themes">https://github.com/m3tozz/neocat-community-themes</a>
 and submit a Pull Request :)
-
 </details>
+
 --------------------------------------------------------------------------
   
 <p align="center"><a href="https://www.pling.com/p/2034925/" target="_blank"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="44%">
