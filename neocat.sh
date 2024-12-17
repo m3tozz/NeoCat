@@ -142,7 +142,9 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
 	echo -e 'and submit a Pull Request..\e[0m'
  	echo -e "\033[1;32m Themes Uploaded by Our Community:\033[01;35m"
  	ls
- 	echo -e '\033[0;33mYou need to manually install the themes in this folder into .config/neofetch.\e[0m'
+ 	echo -e '\033[0;33mYou need to manually install the themes in this folder into .config/neofetch.\033[0;31m'
+  	pwd
+   	$tp
 elif [[ $islem == x || $islem == X ]]; then
 	clear
 
