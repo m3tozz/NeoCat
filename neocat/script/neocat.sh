@@ -87,18 +87,18 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
 	cd Large-Themes/
 	bash start.sh
  elif [[ $islem == c || $islem == C ]]; then
-    clear
 	clear
-	cd  /home/$USER/
+ 	cd  /home/$USER/
 	git clone https://github.com/m3tozz/neocat-community-themes.git
  	clear
  	cd neocat-community-themes
  	echo -e '\033[0;33mTo add your own neofetch configuration to the NeoCat community,'
 	echo -e '\033[0;31mAdd your own configuration at https://github.com/m3tozz/neocat-community-themes'
 	echo -e 'and submit a Pull Request..\e[0m'
+ 	echo -e "\033[1;32m Themes Uploaded by Our Community:\033[01;35m"
  	ls
- 	echo -e '\033[0;33mYou need to manually install the themes in this folder into .config/neofetch.'
-  	cd
+ 	echo -e '\033[0;33mYou need to manually install the themes in this folder into .config/neofetch.\e[0m'
+  	pwd
     echo -e "$red ${blink}                Press CTRL+C To Exit $tp"
 	sleep 99999
  elif [[ $islem == a || $islem == A ]]; then
