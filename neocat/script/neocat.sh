@@ -88,10 +88,17 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
 	bash start.sh
  elif [[ $islem == c || $islem == C ]]; then
     clear
-    echo -e '\033[0;33mTo add your own neofetch configuration to the NeoCat community,'
-    echo -e '\033[0;31mAdd your own configuration at https://github.com/m3tozz/neocat-community-themes'
-    echo -e 'and submit a Pull Request..\e[0m'
-    echo -e "\e[3m\e[1;34mThis folder is currently empty\e[0m"
+	clear
+	cd  /home/$USER/
+	git clone https://github.com/m3tozz/neocat-community-themes.git
+ 	clear
+ 	cd neocat-community-themes
+ 	echo -e '\033[0;33mTo add your own neofetch configuration to the NeoCat community,'
+	echo -e '\033[0;31mAdd your own configuration at https://github.com/m3tozz/neocat-community-themes'
+	echo -e 'and submit a Pull Request..\e[0m'
+ 	ls
+ 	echo -e '\033[0;33mYou need to manually install the themes in this folder into .config/neofetch.'
+  	cd
     echo -e "$red ${blink}                Press CTRL+C To Exit $tp"
 	sleep 99999
  elif [[ $islem == a || $islem == A ]]; then
