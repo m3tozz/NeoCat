@@ -144,7 +144,7 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
  	ls
  	echo -e '\033[0;33mYou need to manually install the themes in this folder into .config/neofetch.\033[0;31m'
   	pwd
-   	$tp
+	echo -e '    \033[0m'
 elif [[ $islem == x || $islem == X ]]; then
 	clear
 
