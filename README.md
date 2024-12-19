@@ -37,7 +37,6 @@ bash ./install-icons.sh
 <code> git clone https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git && cd ttf-meslo-nerd-font-powerlevel10k && makepkg -si && cd .. </code>
 
 </details>
-<details>
 
 Back Up Your Own NeoFetch Configuration
 --
