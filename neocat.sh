@@ -26,8 +26,6 @@ export BASENAME="${0##*/}"	# Base Name of This Script
 # Functions.
 help() {
 	echo -e "Wrong usage, there is 3 arguments for ${BASENAME}\n
-\t${BASENAME} --install: it's install's the ${APP} project on your distrubution.
-\t${BASENAME} --uninstall: it's uninstall's the ${APP} project on your distrubution.
 \t${BASENAME} --shell: run the ${APP} project without installing it in your distribution.
 \t${BASENAME} --backup: back up your own neofetch configuration.
 \t${BASENAME} --version: show the version.
@@ -44,24 +42,8 @@ neocat:backup() {
 bash ./backup.sh
 }
 
-neocat:install() {
-sudo make install
-clear
-echo -e "\033[1;31m ${APP} has been uploaded to your distribution!\033[0m"
-exit
-}
-
-neocat:uninstall() {
-sudo make uninstall
-clear
-echo -e "\033[1;31m ${APP} has been removed to your distribution!\033[0m"
-exit
-}
-
 help() {
 	echo -e "	 
---install: it's install's the ${APP} project on your distrubution.
---uninstall: it's uninstall's the ${APP} project on your distrubution.
 --shell: run the ${APP} project without installing it in your distribution.
 --backup: back up your own neofetch configuration.
 --version: show the version.
@@ -173,12 +155,6 @@ fi
 
 # Argument Parser.
 case "${1,,}" in
-	"--install"|"-i")
-		neocat:install
-	;;
-	"--uninstall"|"-u")
-		neocat:uninstall
-	;;
 	"--shell"|"-s")
 		shell
 	;;
