@@ -6,3 +6,5 @@
 	cp -r /home/$USER/.config/neofetch Backup-$(date +%Y-%m-%d-%H:%M:%S)
 	clear
 	echo -e "\033[31m Backed Up!\033[0m"
+	cd Backup-$(date +%Y-%m-%d-%H:%M:%S)
+	pwd
