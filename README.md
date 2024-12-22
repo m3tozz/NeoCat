@@ -25,6 +25,12 @@ cd NeoCat
 ```bash
 bash ./neocat.sh --help
 ```
+
+<details>
+<summary> Installation for Termux </summary>
+  <code> git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat-termux.sh </code>
+</details>
+
 Install Terminal Icons (icons-in-terminal)
 --
 
