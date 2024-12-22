@@ -44,7 +44,7 @@ if [[ $islem == 1 || $islem == 01 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Loki-Ranger/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Loki-Ranger/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear	
 
 neofetch
@@ -59,7 +59,7 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Fast-Snail/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Fast-Snail/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear	
 
 neofetch
@@ -74,7 +74,7 @@ elif [[ $islem == 3 || $islem == 03 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/SpongeBob/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/SpongeBob/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear
 
 neofetch
@@ -89,7 +89,7 @@ elif [[ $islem == 4 || $islem == 04 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Dino-Rex/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Dino-Rex/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -103,7 +103,7 @@ elif [[ $islem == 5 || $islem == 05 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Smile/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Smile/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -117,7 +117,7 @@ elif [[ $islem == 6 || $islem == 06 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Crocodile/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Crocodile/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -131,7 +131,7 @@ elif [[ $islem == 7 || $islem == 07 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/OWL/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/OWL/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -145,7 +145,7 @@ elif [[ $islem == 8 || $islem == 08 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/MotorCycle/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/MotorCycle/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -159,7 +159,7 @@ elif [[ $islem == 9 || $islem == 09 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Snake/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Snake/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -173,7 +173,7 @@ elif [[ $islem == 10 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Tux/ && cp -r /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Tux/ && cp -r /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -187,7 +187,7 @@ elif [[ $islem == 11 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Palm/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Palm/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -201,7 +201,7 @@ elif [[ $islem == 12 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Alien/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Alien/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -215,7 +215,7 @@ elif [[ $islem == 13 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Truck/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Truck/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -229,7 +229,7 @@ elif [[ $islem == 14 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Cocktail/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Cocktail/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -243,7 +243,7 @@ elif [[ $islem == 15 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Small-Android/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Small-Android/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -257,7 +257,7 @@ elif [[ $islem == 16 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Phone/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Phone/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -271,7 +271,7 @@ elif [[ $islem == 17 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Simba/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Simba/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -285,7 +285,7 @@ elif [[ $islem == 18 ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Duck/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Duck/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
@@ -300,7 +300,7 @@ elif [[ $islem == D || $islem == d  ]]; then
 '
 rm -r /data/data/com.termux/files/home/.config/neofetch
 sleep 1
-        cd Themes/Default/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
+        cd Termux-Themes/Default/ && cp -r neofetch /data/data/com.termux/files/home/.config/neofetch
 clear   
 neofetch
 
