@@ -1,6 +1,6 @@
 # Made By M3TOZZ
+neofetch
 clear
-
 banner(){
 echo -e '\033[0;36m
 |\---/|
