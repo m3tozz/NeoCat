@@ -1,10 +1,10 @@
-# <img src="https://github.com/m3tozz/NeoCat/assets/79897762/c0b5e215-5db6-4e2d-9932-e72039e9a41e" hspace="10" width="37"  align="left"/><p><center>NeoCat NeoFetch Theme Pack.</center></p>
+# <img src="https://github.com/m3tozz/NeoCat/assets/79897762/c0b5e215-5db6-4e2d-9932-e72039e9a41e" hspace="10" width="37"  align="left"/><p><center>NeoCat NeoFetch Theme Pack.</center>
 
 <p align="center"><img src="https://github.com/user-attachments/assets/215c14a2-a0af-4b8f-a12c-b699df7d14ea"></p>
 
 --------------------------------------------------------------------------
 
-<img src="https://hits.sh/github.com/m3tozz/NeoCat.svg?label=views&color=fe7d37" alt="r10" hspace="10" align="right" /> What is NeoCat? <br>
+<img src="https://img.shields.io/badge/Android-gray?&logo=android" alt="r10" hspace="10"  align="right" /><img src="https://img.shields.io/badge/Linux-gray?&logo=linux" alt="r10" hspace="10"  align="right" /></p> What is NeoCat? <br>
 NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
 
 --------------------------------------------------------------------------
