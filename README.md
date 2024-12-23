@@ -30,7 +30,7 @@ bash ./neocat.sh --help
 
 <details>
 <summary>Installation for Termux</summary>
-  <code> bash ./neocat-termux.sh</code>
+  <code> git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat-termux.sh </code>
   <p align="center">
   <img src="https://github.com/user-attachments/assets/7ceabc92-01b4-4e76-996f-3c117a957d08"></p>
 </details>
