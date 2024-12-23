@@ -8,7 +8,7 @@ To use NeoCat, you must first download NeoFetch :)
 
 \033[1;31mNeoFetch Installation:
 \033[1;36m
-→ sudo apt install neofetch\033[0m"
+→ pkg install neofetch\033[0m"
 exit 1
 fi
 neofetch
