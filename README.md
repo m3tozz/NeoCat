@@ -15,7 +15,8 @@ NeoCat contains its own neofetch configurations and uploads the selected configu
 ```bash
 git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat.sh --shell
 ```
-<img src="https://img.shields.io/badge/Linux-gray?&logo=linux" hspace="10"  align="right" />Install (Manual)
+
+Install (Manual)
 --
 ```bash
 git clone https://github.com/m3tozz/NeoCat.git 
@@ -28,7 +29,7 @@ bash ./neocat.sh --help
 ```
 
 <details>
-<summary><img src="https://img.shields.io/badge/Android-gray?&logo=android"  hspace="10"  align="right" /> Installation for Termux </summary>
+<summary>Installation for Termux</summary>
   <code> bash ./neocat-termux.sh </code>
 </details>
 
