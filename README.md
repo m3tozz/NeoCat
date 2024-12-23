@@ -31,7 +31,7 @@ bash ./neocat.sh --help
 <details>
 <summary>Installation for Termux</summary>
   <code> bash ./neocat-termux.sh </code>
-  <p align="center"><img src="https://github.com/m3tozz/NeoCat-Termux/assets/79897762/64f45dc3-55bc-437c-bdbd-8c4e3ef72b16">
+  <p align="center"><img src="https://github.com/user-attachments/assets/7c036d17-e6f6-413b-a718-732730565322"></p>
 </details>
 
 Install Terminal Icons (icons-in-terminal)
