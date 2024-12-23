@@ -4,17 +4,18 @@
 
 --------------------------------------------------------------------------
 
-<img src="https://img.shields.io/badge/Android-gray?&logo=android" alt="r10" hspace="10"  align="right" /><img src="https://img.shields.io/badge/Linux-gray?&logo=linux" alt="r10" hspace="10"  align="right" /></p> What is NeoCat? <br>
+ What is NeoCat?
+ --
 NeoCat contains its own neofetch configurations and uploads the selected configuration to your system!
 
 --------------------------------------------------------------------------
 
-<a href="https://www.instagram.com/textzuhree/"><img src="https://img.shields.io/badge/textzuhree-grey?&logo=instagram" alt="r10" hspace="10"  align="right" /></a>Install (Automatic)
+<a href="https://www.instagram.com/textzuhree/"><img src="https://img.shields.io/badge/textzuhree-grey?&logo=instagram" hspace="10"  align="right" /></a>Install (Automatic)
 --
 ```bash
 git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat.sh --shell
 ```
-Install (Manual)
+<img src="https://img.shields.io/badge/Linux-gray?&logo=linux" hspace="10"  align="right" />Install (Manual)
 --
 ```bash
 git clone https://github.com/m3tozz/NeoCat.git 
@@ -27,8 +28,8 @@ bash ./neocat.sh --help
 ```
 
 <details>
-<summary> Installation for Termux </summary>
-  <code> git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat-termux.sh </code>
+<summary><img src="https://img.shields.io/badge/Android-gray?&logo=android"  hspace="10"  align="right" /> Installation for Termux </summary>
+  <code> bash ./neocat-termux.sh </code>
 </details>
 
 Install Terminal Icons (icons-in-terminal)
@@ -51,6 +52,7 @@ Back Up Your Own NeoFetch Configuration
 bash ./neocat.sh --backup
 ```
 --------------------------------------------------------------------------
+
 Themes
 --
 <a href="https://m3tozz.github.io/NeoCat-Themes/">https://m3tozz.github.io/NeoCat-Themes/</a>
@@ -65,21 +67,16 @@ and submit a Pull Request :)
 
 <br>
 <p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/007ac431-538b-47df-bcb6-7721667257f3">
-<a href="https://discord.gg/sQwYCZer95"><img src="https://img.shields.io/badge/Join The NeoCat's Community Discord Server-grey?&logo=discord" alt="r10" hspace="10"  align="center" /></a>
-<a href="https://matrix.to/#/#neocat-channels:matrix.org"><img src="https://img.shields.io/badge/Join The NeoCat's Community Matrix Server-grey?&logo=matrix" alt="r10" hspace="10"  align="center" /></a>
+<a href="https://discord.gg/sQwYCZer95"><img src="https://img.shields.io/badge/Join The NeoCat's Community Discord Server-grey?&logo=discord" hspace="10"  align="center" /></a>
+<a href="https://matrix.to/#/#neocat-channels:matrix.org"><img src="https://img.shields.io/badge/Join The NeoCat's Community Matrix Server-grey?&logo=matrix" hspace="10"  align="center" /></a>
 
 --------------------------------------------------------------------------
   
-<p align="center"><a href="https://www.pling.com/p/2034925/" target="_blank"><img src="https://store.kde.org/images/system/ocsstore-download-button.png" width="44%">
+<p align="center"><a href="https://www.pling.com/p/2034925/" target="_blank"><img src="https://github.com/user-attachments/assets/392abc9e-5265-4cbe-a031-76d090df89a3" width="44%"></a>
  
 --------------------------------------------------------------------------
-Support | Bağış Yap
- --
- <p align="left"><a href="https://kreosus.com/m3tozzch4rm">Donate Link (Turkish)</a> or <align="right"><a href="https://www.buymeacoffee.com/m3tozz">BuyMeACoffee</a>.
-<details>
-<summary> What's the best nation in the world? </summary>
-  Answer: Donation
-</details>
+<p align="center">Support | Bağış Yap<br>
+<a href="https://kreosus.com/m3tozzch4rm">Donate Link (Turkish)</a> or <align="right"><a href="https://www.buymeacoffee.com/m3tozz">BuyMeACoffee</a>.</p>
 
 --------------------------------------------------------------------------
 <p align="center">made by<a href="https://m3tozz.github.io/"> m3tozz</a></p>
