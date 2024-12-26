@@ -26,7 +26,7 @@ export BASENAME="${0##*/}"	# Base Name of This Script
 # Functions.
 help() {
 	echo -e "Wrong usage, there is 3 arguments for ${BASENAME}\n
-\t${BASENAME} --shell: run the ${APP} project without installing it in your distribution.
+\t${BASENAME} --shell: run the ${APP} .
 \t${BASENAME} --backup: back up your own neofetch configuration.
 \t${BASENAME} --version: show the version.
 \t${BASENAME} --help: show this page.
@@ -44,7 +44,7 @@ bash ./backup.sh
 
 help() {
 	echo -e "	 
---shell: run the ${APP} project without installing it in your distribution.
+--shell: run the ${APP} .
 --backup: back up your own neofetch configuration.
 --version: show the version.
 --help: show this page."
