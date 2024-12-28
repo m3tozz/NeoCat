@@ -63,15 +63,15 @@ Themes
 
 <details>
 <summary>How can I add my own neofetch configuration to the neocat community?</summary>
- Fork <a href="https://github.com/m3tozz/neocat-community-themes">this repo</a>, add your theme, and submit a pull request
+ Fork <a href="https://github.com/m3tozz/neocat-community-themes">this repo</a>, add your theme, and submit a pull request.
 </details>
 
 --------------------------------------------------------------------------
 
 <br>
 <p align="center"><img src="https://github.com/m3tozz/NeoCat/assets/79897762/007ac431-538b-47df-bcb6-7721667257f3">
-<a href="https://discord.gg/sQwYCZer95"><img src="https://img.shields.io/badge/Join The NeoCat's Community Discord Server-grey?&logo=discord" hspace="10"  align="center" /></a>
-<a href="https://matrix.to/#/#neocat-channels:matrix.org"><img src="https://img.shields.io/badge/Join The NeoCat's Community Matrix Server-grey?&logo=matrix" hspace="10"  align="center" /></a>
+<a href="https://discord.gg/sQwYCZer95"><img src="https://img.shields.io/badge/Join The NeoCat's Community Discord Server-black?&logo=discord" hspace="10"  align="center" /></a>
+<a href="https://matrix.to/#/#neocat-channels:matrix.org"><img src="https://img.shields.io/badge/Join The NeoCat's Community Matrix Server-black?&logo=matrix" hspace="10"  align="center" /></a>
 
 --------------------------------------------------------------------------
   
