@@ -62,6 +62,7 @@ Themes
 <a href="https://github.com/m3tozz/neocat-community-themes/blob/main/PREVIEW-THEMES.md"><img src="https://img.shields.io/badge/preview_neocat's_community_themes-000000.svg?&style=for-the-badge"></a>
 
 <summary>How can I add my own neofetch configuration to the neocat community?</summary>
+<details>
  Fork <a href="https://github.com/m3tozz/neocat-community-themes">this repo</a>, add your theme, and submit a pull request
 </details>
 
