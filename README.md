@@ -10,7 +10,7 @@ NeoCat contains its own neofetch configurations and uploads the selected configu
 
 --------------------------------------------------------------------------
 
-<a href="https://www.instagram.com/textzuhree/"><img src="https://img.shields.io/badge/textzuhree-grey?&logo=instagram" hspace="10"  align="right" /></a>Install (Automatic)
+<a href="https://www.instagram.com/textzuhree/"><img src="https://img.shields.io/badge/textzuhree-black?&logo=instagram&logoColor=purple" hspace="10"  align="right" /></a>Install (Automatic)
 --
 ```bash
 git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat.sh --shell
@@ -41,11 +41,18 @@ Install Terminal Icons (icons-in-terminal)
 ```bash
 bash ./install-icons.sh
 ```
+<details><summary>Icons Not Working On My Fetch</summary>
+
+
 <details>
-<summary>Download The Required Icon Pack (For Arch Linux)</summary>
+<summary>Arch Linux</summary>
 
-<code> git clone https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git && cd ttf-meslo-nerd-font-powerlevel10k && makepkg -si && cd .. </code>
-
+Use This Command: <code> git clone https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git && cd ttf-meslo-nerd-font-powerlevel10k && makepkg -si && cd .. </code>
+</details>
+<details>
+<summary>OpenSUSE</summary>
+Install This Package:<a href="https://software.opensuse.org/package/symbols-only-nerd-fonts"> https://software.opensuse.org/package/symbols-only-nerd-fonts</a>
+</details>
 </details>
 
 Back Up Your Own NeoFetch Configuration
