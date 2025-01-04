@@ -41,8 +41,8 @@ Install Terminal Icons (icons-in-terminal)
 ```bash
 bash ./install-icons.sh
 ```
-<details><summary>Icons Not Working On My Fetch</summary>
-<details><br>
+<details><summary>Icons Not Working On My Fetch</summary><br>
+<details>
 <summary>Arch Linux</summary>
 Use This Command: <code> git clone https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git && cd ttf-meslo-nerd-font-powerlevel10k && makepkg -si && cd .. </code>
 </details>
