@@ -42,16 +42,21 @@ Install Terminal Icons (icons-in-terminal)
 bash ./install-icons.sh
 ```
 <details><summary>Icons Not Working On My Fetch</summary>
-
-
-<details>
+<details><br>
 <summary>Arch Linux</summary>
-
 Use This Command: <code> git clone https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git && cd ttf-meslo-nerd-font-powerlevel10k && makepkg -si && cd .. </code>
+</details>
+<details>
+<summary>Ubuntu/Debian</summary>
+Use This Command: <code> sudo apt install fonts-font-awesome </code>
 </details>
 <details>
 <summary>OpenSUSE</summary>
 Install This Package:<a href="https://software.opensuse.org/package/symbols-only-nerd-fonts"> https://software.opensuse.org/package/symbols-only-nerd-fonts</a>
+</details>
+<details>
+<summary>Fedora</summary>
+Use This Command: <code> sudo dnf install google-noto-sans-fonts && sudo dnf install google-noto-sans-mono-fonts </code>
 </details>
 </details>
 
