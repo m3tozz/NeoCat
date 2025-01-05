@@ -29,10 +29,16 @@ bash ./neocat.sh --help
 ```
 
 <details>
-<summary>Installation for Termux</summary>
-  <code> git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat-termux.sh </code>
-  <p align="center">
-  <img src="https://github.com/user-attachments/assets/7ceabc92-01b4-4e76-996f-3c117a957d08"></p>
+<summary>Installation for Termux</summary><br/>
+ <details>
+<summary>Automatic Installation</summary>
+  <code> git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat-termux.sh </code></details>
+  <details>
+ <summary>Manual Installation</summary>
+  <code>git clone --depth 1 https://github.com/m3tozz/NeoCat.git</code><br>
+  <code>cd NeoCat</code><br>
+  <code>bash ./neocat-termux.sh</code><br>
+  </details>
 </details>
 
 Install Terminal Icons (icons-in-terminal)
