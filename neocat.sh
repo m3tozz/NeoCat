@@ -29,6 +29,7 @@ help() {
 \t${BASENAME} --shell: run the ${APP} .
 \t${BASENAME} --backup: back up your own neofetch configuration.
 \t${BASENAME} --version: show the version.
+\t${BASENAME} --about: about ${APP} project.
 \t${BASENAME} --help: show this page.
 "
 
@@ -36,6 +37,23 @@ help() {
 
 neocat:version() {
 echo "$version"
+}
+
+neocat:about() {
+echo -e '
+    _   _             ____      _   
+   | \ | | ___  ___  / ___|__ _| |_ 
+   |  \| |/ _ \/ _ \| |   / _` | __|NeoFetch Theme Pack
+   | |\  |  __/ (_) | |__| (_| | |_ 
+   |_| \_|\___|\___/ \____\__,_|\__|                                  
+'
+    echo -e "$blue##########################################################$tp"
+    echo -e "    Create by           ":" $red M3TOZZ$tp"
+    echo -e "    Github              ":" $red https://github.com/m3tozz$tp"
+    echo -e "    Instagram           ":" $red @textzuhree$tp"
+    echo -e "    Version             ":" $red ${version} $tp"
+    echo -e "$blue##########################################################$tp"
+	exit 1
 }
 
 neocat:backup() {
@@ -47,6 +65,7 @@ help() {
 --shell: run the ${APP} .
 --backup: back up your own neofetch configuration.
 --version: show the version.
+--about: about ${APP} project.
 --help: show this page."
 }
 
@@ -160,6 +179,9 @@ case "${1,,}" in
 	;;
 	"--backup"|"-b")
 		neocat:backup
+	;;
+	"--about"|"-a")
+	neocat:about
 	;;
 	"--version"|"-v")
 		neocat:version
