@@ -28,10 +28,15 @@ help() {
 	echo -e "Wrong usage, there is 3 arguments for ${BASENAME}\n
 \t${BASENAME} --shell: run the ${APP} .
 \t${BASENAME} --backup: back up your own neofetch configuration.
+\t${BASENAME} --version: show the version.
 \t${BASENAME} --about: about ${APP} project.
 \t${BASENAME} --help: show this page.
 "
 
+}
+
+neocat:version() {
+echo "$version"
 }
 
 neocat:about() {
@@ -59,6 +64,7 @@ help() {
 	echo -e "	 
 --shell: run the ${APP} .
 --backup: back up your own neofetch configuration.
+--version: show the version.
 --about: about ${APP} project.
 --help: show this page."
 }
@@ -175,7 +181,10 @@ case "${1,,}" in
 		neocat:backup
 	;;
 	"--about"|"-a")
-	neocat:about
+		neocat:about
+	;;
+	"--version"|"-v")
+		neocat:version
 	;;
 	*)
 		help
