@@ -41,43 +41,16 @@ bash ./neocat.sh --help
   </details>
 </details>
 
-Install Terminal Icons (icons-in-terminal)
+Install Terminal Icons (CascadiaCode Nerd Font)
 --
 
 ```bash
 bash ./install-icons.sh
 ```
-<details><summary>Icons Not Working On My Fetch</summary><br>
+
 <details>
-<summary>Arch Linux</summary>
+<summary>Download The Required Icon Pack (For Arch Linux)</summary>
 Use This Command: <code> git clone https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git && cd ttf-meslo-nerd-font-powerlevel10k && makepkg -si && cd .. </code>
-</details>
-<details>
-<summary>Ubuntu/Debian</summary>
-Use This Command:<br>
-<code> mkdir ~/.fonts &&
-wget -P ~/.fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CascadiaCode.zip \
-&& cd ~/.fonts \
-&& unzip CascadiaCode.zip \
-&& rm CascadiaCode.zip \
-&& fc-cache -fv </code><br>
-And then go to your terminal settings and select CascadiaCode from the font section.
-</details>
-<details>
-<summary>OpenSUSE</summary>
-Install This Package:<a href="https://software.opensuse.org/package/symbols-only-nerd-fonts"> https://software.opensuse.org/package/symbols-only-nerd-fonts</a>
-</details>
-<details>
-<summary>Fedora</summary>
-Use This Command:<br>
-<code> mkdir ~/.fonts &&
-wget -P ~/.fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CascadiaCode.zip \
-&& cd ~/.fonts \
-&& unzip CascadiaCode.zip \
-&& rm CascadiaCode.zip \
-&& fc-cache -fv </code><br>
-And then go to your terminal settings and select CascadiaCode from the font section.
-</details>
 </details>
 
 Back Up Your Own NeoFetch Configuration
@@ -110,8 +83,14 @@ Themes
 <p align="center"><a href="https://www.pling.com/p/2034925/" target="_blank"><img src="https://github.com/user-attachments/assets/392abc9e-5265-4cbe-a031-76d090df89a3" width="44%"></a>
  
 --------------------------------------------------------------------------
-<p align="center">Support | Bağış Yap<br>
-<a href="https://kreosus.com/m3tozzch4rm">Donate Link (Turkish)</a> or <align="right"><a href="https://www.buymeacoffee.com/m3tozz">BuyMeACoffee</a>.</p>
+
+Support | Bağış Yap
+--
+[![Donate to HAYTAP](https://img.shields.io/badge/🐾_Donate-HAYTAP❤️-red?style=for-the-badge)](https://fonzip.com/haytap/bagis)
+> [!CAUTION]
+> This open-source project is not affiliated with any organization.  
+> [Animal Rights Federation (HAYTAP)](https://www.haytap.org) is a leading animal rights organization in Türkiye, dedicated to protecting stray and vulnerable animals.  
+> If you’d like to help, please consider donating directly to HAYTAP.
 
 --------------------------------------------------------------------------
 <p align="center">made by<a href="https://m3tozz.github.io/"> m3tozz</a></p>
