@@ -88,7 +88,7 @@ Support | Bağış Yap
 --
 [![Donate to HAYTAP](https://img.shields.io/badge/🐾_Donate-HAYTAP❤️-red?style=for-the-badge)](https://fonzip.com/haytap/bagis)
 
-> **What is HAYTAP?**  
+> [!IMPORTANT]  
 > [HAYTAP (Animal Rights Federation)](https://www.haytap.org) is an independent NGO in Türkiye that protects stray animals and defends animal rights.  
 > This project is not affiliated with HAYTAP.  
 > However, if you’d like to support its spirit and purpose, you can contribute by donating directly to HAYTAP.
