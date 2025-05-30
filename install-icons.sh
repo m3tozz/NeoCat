@@ -32,8 +32,7 @@ if [[ "$choice" =~ ^[Yy]$ ]]; then
     echo -e "\033[1;34mRefreshing font cache...\033[0m"
     fc-cache -fv
 
-    echo -e "\n\033[1;32mInstallation complete."
-    echo -e "Please select 'CascadiaCode Nerd Font' in your terminal settings.\033[0m"
+echo -e "\nInstallation complete! Please open a new terminal and select 'CascadiaCove Nerd Font Regular' in your terminal settings."
 else
     echo -e "\033[1;31mInstallation canceled by user.\033[0m"
 fi
