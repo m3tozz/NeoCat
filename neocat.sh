@@ -1,5 +1,5 @@
 
-# ============ Auto-Updater =============
+# NeoCat Updater
 remote_url="https://raw.githubusercontent.com/m3tozz/NeoCat/main/neocat.sh"
 local_file="$0"
 tmp_file=$(mktemp)
@@ -13,15 +13,21 @@ rm "$tmp_file"
 
 if [ "$remote_ver" != "$local_ver" ]; then
     echo "new version found: $local_ver → $remote_ver"
-    echo "updating... syncing entire repository"
 
-    branch=$(git symbolic-ref --short HEAD)
-    git fetch origin
-    git reset --hard origin/$branch
+    if [ -d ".git" ]; then
+        echo "updating... syncing entire repository"
+        branch=$(git symbolic-ref --short HEAD 2>/dev/null)
+        git fetch origin
+        git reset --hard origin/$branch
 
-    echo "update complete. restarting script..."
-    exec "$local_file" "$@"
-    exit
+        echo "update complete. restarting script..."
+        exec "$local_file" "$@"
+        exit
+    else
+        echo -e "\e[1;33m[Warning]\e[0m Git repository not found. Skipping full update."
+        echo -e "To update manually, run: git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat.sh --shell\n"
+        sleep 2
+    fi
 fi
 
 # NeoCat Version
@@ -36,14 +42,14 @@ version='1.2.9'
     bgreen='\033[1;32m'
 
 # Define Constants.
-export APP="NeoCat" 		# Project Name
-export CWD="${PWD}"			# Current Work Directory
-export BASENAME="${0##*/}"	# Base Name of This Script
+export APP="NeoCat"         # Project Name
+export CWD="${PWD}"         # Current Work Directory
+export BASENAME="${0##*/}"  # Base Name of This Script
 
 
 # Functions.
 help() {
-	echo -e "Wrong usage, there is 3 arguments for ${BASENAME}\n
+    echo -e "Wrong usage, there is 3 arguments for ${BASENAME}\n
 \t${BASENAME} --shell: run the ${APP} .
 \t${BASENAME} --backup: back up your own neofetch configuration.
 \t${BASENAME} --version: show the version.
@@ -71,7 +77,7 @@ echo -e '
     echo -e "    Instagram           ":" $red @textzuhree$tp"
     echo -e "    Version             ":" $red ${version} $tp"
     echo -e "$blue##########################################################$tp"
-	exit 1
+    exit 1
 }
 
 neocat:backup() {
@@ -79,7 +85,7 @@ bash ./backup.sh
 }
 
 help() {
-	echo -e "	 
+    echo -e "    
 --shell: run the ${APP} .
 --backup: back up your own neofetch configuration.
 --version: show the version.
@@ -91,8 +97,8 @@ help() {
 shell(){
 if ! command -v neofetch
 then
-    	clear
-    	echo -e "\033[1;31m
+        clear
+        echo -e "\033[1;31m
 NeoFetch Not Found!\033[1;33m
 To use NeoCat, you must first download NeoFetch :)
 
@@ -143,32 +149,32 @@ echo -e '
 
 banner
 if [[ $islem == 1 || $islem == 01 ]]; then
-	clear
-	cd Small-Themes/
-	bash start.sh
+    clear
+    cd Small-Themes/
+    bash start.sh
 
 elif [[ $islem == 2 || $islem == 02 ]]; then
-	clear
-	cd Large-Themes/
-	bash start.sh
+    clear
+    cd Large-Themes/
+    bash start.sh
  elif [[ $islem == c || $islem == C ]]; then
-	clear
-	git clone https://github.com/m3tozz/neocat-community-themes.git
- 	clear
- 	cd neocat-community-themes
- 	echo -e '\033[0;33mTo add your own neofetch configuration to the NeoCat community,'
-	echo -e '\033[0;31mAdd your own configuration at https://github.com/m3tozz/neocat-community-themes'
-	echo -e 'and submit a Pull Request..\e[0m'
- 	echo -e "\033[1;32m Themes Uploaded by Our Community:\033[01;35m"
- 	ls -d */
- 	echo -e '\033[0;33mYou need to manually install the themes in this folder into .config/neofetch.\033[0;31m'
-  	pwd
-	echo -e '    \033[0m'
+    clear
+    git clone https://github.com/m3tozz/neocat-community-themes.git
+    clear
+    cd neocat-community-themes
+    echo -e '\033[0;33mTo add your own neofetch configuration to the NeoCat community,'
+    echo -e '\033[0;31mAdd your own configuration at https://github.com/m3tozz/neocat-community-themes'
+    echo -e 'and submit a Pull Request..\e[0m'
+    echo -e "\033[1;32m Themes Uploaded by Our Community:\033[01;35m"
+    ls -d */
+    echo -e '\033[0;33mYou need to manually install the themes in this folder into .config/neofetch.\033[0;31m'
+    pwd
+    echo -e '    \033[0m'
 elif [[ $islem == x || $islem == X ]]; then
-	clear
+    clear
 
 elif [[ $islem == a || $islem == A ]]; then
-	clear
+    clear
 echo -e '
     _   _             ____      _   
    | \ | | ___  ___  / ___|__ _| |_ 
@@ -182,29 +188,29 @@ echo -e '
     echo -e "    Instagram           ":" $red @textzuhree$tp"
     echo -e "    Version             ":" $red ${version} $tp"
     echo -e "$blue##########################################################$tp"
-	exit 1
+    exit 1
 elif [[ $islem == b || $islem == B ]]; then
 bash ./backup.sh
 else
-	echo -e '\e[1;34m Wrong transaction number!\033[0m'
+    echo -e '\e[1;34m Wrong transaction number!\033[0m'
 fi
 }
 
 # Argument Parser.
 case "${1,,}" in
-	"--shell"|"-s")
-		shell
-	;;
-	"--backup"|"-b")
-		neocat:backup
-	;;
-	"--about"|"-a")
-		neocat:about
-	;;
-	"--version"|"-v")
-		neocat:version
-	;;
-	*)
-		help
-	;;
+    "--shell"|"-s")
+        shell
+    ;;
+    "--backup"|"-b")
+        neocat:backup
+    ;;
+    "--about"|"-a")
+        neocat:about
+    ;;
+    "--version"|"-v")
+        neocat:version
+    ;;
+    *)
+        help
+    ;;
 esac
