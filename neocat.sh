@@ -1,4 +1,3 @@
-
 # NeoCat Updater
 remote_url="https://raw.githubusercontent.com/m3tozz/NeoCat/main/neocat.sh"
 local_file="$0"
@@ -21,43 +20,16 @@ if [ "$remote_ver" != "$local_ver" ]; then
         git reset --hard origin/$branch
 
         echo "update complete. restarting script..."
+        chmod +x "$local_file"
         exec "$local_file" "$@"
         exit
     else
         echo -e "\e[1;33m[Warning]\e[0m Git repository not found. Skipping full update."
-        echo -e "To update manually, run: git clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat.sh --shell\n"
+        echo -e "To update manually, run:\n\e[1;34mgit clone --depth 1 https://github.com/m3tozz/NeoCat.git && cd NeoCat && bash ./neocat.sh --shell\e[0m"
         sleep 2
     fi
 fi
 
-# NeoCat Version
-version='1.2.9'
-
-# Colors
-    red='\e[1;31m'
-    yellow='\e[1;33m'
-    blue='\e[1;34m'
-    tp='\e[0m'
-    green='\e[0;32m'
-    bgreen='\033[1;32m'
-
-# Define Constants.
-export APP="NeoCat"         # Project Name
-export CWD="${PWD}"         # Current Work Directory
-export BASENAME="${0##*/}"  # Base Name of This Script
-
-
-# Functions.
-help() {
-    echo -e "Wrong usage, there is 3 arguments for ${BASENAME}\n
-\t${BASENAME} --shell: run the ${APP} .
-\t${BASENAME} --backup: back up your own neofetch configuration.
-\t${BASENAME} --version: show the version.
-\t${BASENAME} --about: about ${APP} project.
-\t${BASENAME} --help: show this page.
-"
-
-}
 
 neocat:version() {
 echo "$version"
