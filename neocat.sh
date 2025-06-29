@@ -31,7 +31,7 @@ if [ "$remote_ver" != "$local_ver" ]; then
 fi
 
 # neocat version
-version='1.2.9' 
+version='1.2.9.0' 
 
 # Colors
 red='\033[0;31m'
