@@ -16,7 +16,6 @@ if [[ "$choice" =~ ^[Yy]$ ]]; then
     sleep 0.2
     clear
     echo -e "\033[1;31munzip Not Found!\033[1;33m"
-    echo -e "To install fonts, you must first install unzip :)"
     echo -e "\n\033[1;31munzip Installation:\033[0m"
     echo -e "\033[1;36mDebian or Ubuntu using APT:\033[0m"
     echo -e "  \033[1;34m→ sudo apt install unzip\033[0m"
