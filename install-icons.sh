@@ -11,6 +11,21 @@ echo -e '\033[1;36m
 read -p "Do you want to install CascadiaCode Nerd Font? (Y/N): " choice
 
 if [[ "$choice" =~ ^[Yy]$ ]]; then
+    if ! command -v unzip >/dev/null 2>&1; then
+    echo -e "\033[1;31mError: 'unzip' is not installed. Please install it and rerun the script.\033[0m"
+    sleep 0.2
+    clear
+    echo -e "\033[1;31munzip Not Found!\033[1;33m"
+    echo -e "To install fonts, you must first install unzip :)"
+    echo -e "\n\033[1;31munzip Installation:\033[0m"
+    echo -e "\033[1;36mDebian or Ubuntu using APT:\033[0m"
+    echo -e "  \033[1;34m→ sudo apt install unzip\033[0m"
+    echo -e "\n\033[1;32mArch Linux using Pacman:\033[0m"
+    echo -e "  \033[1;34m→ sudo pacman -S unzip\033[0m"
+    echo -e "\n\033[1;35mRHEL, Fedora, or CentOS using DNF:\033[0m"
+    echo -e "  \033[1;34m→ sudo dnf install unzip\033[0m"
+    exit 1
+fi
     FONT_DIR="$HOME/.fonts"
 
     if [ ! -d "$FONT_DIR" ]; then
