@@ -168,7 +168,7 @@ echo -e '
     echo -e "$blue##########################################################$tp"
     echo -e "    Create by           ":" $red M3TOZZ$tp"
     echo -e "    Github              ":" $red https://github.com/m3tozz$tp"
-    echo -e "    Instagram           ":" $red @textzuhree$tp"
+    echo -e "    Community Server    ":" $red discord.com/invite/sQwYCZer95$tp"
     echo -e "    Version             ":" $red ${version} $tp"
     echo -e "$blue##########################################################$tp"
     exit 1
