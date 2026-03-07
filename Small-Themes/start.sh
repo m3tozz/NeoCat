@@ -32,7 +32,7 @@ echo -e '\033[0;36m
 \e[1;36m[20]\e[0;32mSheriff \e[1;34m[21]\e[0;32mGiraffe \033[1;33m[22]\e[0;32mDog \e[1;35m[23]\e[0;32mKittyCat \e[1;34m[24]\e[0;32m8-Bit
 \e[1;35m[25]\e[0;32mRobo-Dog \033[1;33m[26]\e[0;32mArchtozz \e[1;34m[27]\e[0;32mDebiatozz \e[1;36m[28]\e[0;32mFedortozz
 \033[1;33m[29]\e[0;32mUWU \e[1;36m[30]\e[0;32mMetoSpace \e[1;35m[31]\e[0;32mAwesome \e[1;34m[32]\e[0;32mPlay-Boy \e[1;36m[33]\e[0;32mSkull
-\033[1;31m[x]Exit [D]Default-Theme
+\033[1;31m[x]Exit [D]Default-Theme [00]Menu
 '
         echo -ne "\e[1;33mm3tozz\e[0;31m@\033[1;34mneocat\n\e[0;31m↳\e[1;36m " ; read islem
 }
@@ -380,6 +380,10 @@ sleep 1
         cd Default/ && cp -r neofetch /home/$USER/.config
 clear   
 neofetch
+
+elif [[ $islem == 00 || $islem == 0 ]]; then
+cd ..
+bash ./neocat.sh -s
 
 elif [[ $islem == x || $islem == X ]]; then
 	clear
