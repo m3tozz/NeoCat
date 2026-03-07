@@ -31,7 +31,7 @@ if [ "$remote_ver" != "$local_ver" ]; then
 fi
 
 # neocat version
-version='1.2.9.2' 
+version='1.2.9.3' 
 
 # Colors
 red='\033[0;31m'
@@ -69,10 +69,10 @@ bash ./backup.sh
 
 help() {
     echo -e "    
---shell: run the ${APP} .
+--shell: run the NeoCat .
 --backup: back up your own neofetch configuration.
 --version: show the version.
---about: about ${APP} project.
+--about: about project.
 --help: show this page."
 }
 
