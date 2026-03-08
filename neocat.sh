@@ -31,7 +31,7 @@ if [ "$remote_ver" != "$local_ver" ]; then
 fi
 
 # neocat version
-version='1.2.9.3' 
+version='1.2.9.4' 
 
 # Colors
 red='\033[0;31m'
@@ -171,7 +171,9 @@ echo -e '
     echo -e "    Community Server    ":" $red discord.com/invite/sQwYCZer95$tp"
     echo -e "    Version             ":" $red ${version} $tp"
     echo -e "$blue##########################################################$tp"
-    exit 1
+    echo -e "\nPress any key to continue..."
+    read -r -n1
+    shell
 elif [[ $islem == b || $islem == B ]]; then
 bash ./backup.sh
 else
